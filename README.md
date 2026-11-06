@@ -156,7 +156,7 @@ counterpart here.
 
 ```sh
 python3 -I tools/build.py   # writes icons/{dark,light}/*.svg and icon_themes/authentic-icons.json
-python3 -I tools/check.py   # replays Zed's lookup and asserts the rules above hold
+python3 -I tools/check.py   # replays Zed's lookup, asserts the rules above, checks the manifest and licence
 python3 -I tools/preview.py # writes preview.html to inspect every icon at real size
 ```
 
@@ -186,6 +186,17 @@ library alone:
 ```sh
 python3 -I tools/extract_seti.py <vscode checkout> tools/seti.json
 ```
+
+## Releasing
+
+Zed's store packages only `extension.toml`, `icon_themes/*.json` and everything under `icons/`.
+Run `python3 -I tools/check.py` first: it applies the manifest and licence rules the registry
+enforces when it packages an extension. To release, raise `version` in `extension.toml`, commit,
+push, and open a pull request against
+[zed-industries/extensions](https://github.com/zed-industries/extensions) that moves this
+repository's submodule to the new commit and sets the same `version` in `extensions.toml`. The
+registry's [publishing guide](https://zed.dev/docs/extensions/publishing/publishing-guide) has
+the steps, and its AI policy requires the pull request to be opened and written by a person.
 
 ## Costs and limits
 
@@ -225,9 +236,9 @@ python3 -I tools/extract_seti.py <vscode checkout> tools/seti.json
 | `tools/glyphs.py`, `tools/kit.py` | The drawings and the shared drawing style |
 | `tools/build.py`, `tools/check.py`, `tools/preview.py` | Generator, self-check, and the real-size preview page |
 | `tools/extract_coverage.py`, `tools/extract_seti.py` | Refresh the coverage list and the VS Code shapes from their sources |
-| `THIRD_PARTY_NOTICES.md` | Licence notices for the VS Code / Seti UI shapes |
+| `THIRD_PARTY_NOTICES.md` | Licence notices for the VS Code / Seti UI shapes and the vscode-icons-zed coverage list |
 
 The coverage list comes from vscode-icons-zed (MIT) at commit `f52dc01`. The design rules and
 Zed's tables come from Zed's source, and no Zed or vscode-icons artwork is copied. The VS Code
 shapes come from the Seti theme in microsoft/vscode (MIT; Seti UI by Jesse Weed, MIT). Their
-notices are in `THIRD_PARTY_NOTICES.md`. The theme is licensed MIT.
+notices, with vscode-icons-zed's, are in `THIRD_PARTY_NOTICES.md`. The theme is licensed MIT.

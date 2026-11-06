@@ -10,7 +10,9 @@ this theme merged on top, the way Zed loads an extension icon theme, and asserts
   5. icons carry a real colour: Zed shows an extension's icons as images in their own colours
      (only its built-in icons get tinted), so each icon folder must paint in exactly one baked
      colour, never black, with masks alone kept black/white;
-  6. the kit puts horizontal and vertical strokes on pixel centres (see kit._snap).
+  6. the kit puts horizontal and vertical strokes on pixel centres (see kit._snap);
+  7. the manifest and licence meet what the Zed extensions registry enforces when it packages
+     an extension (rules read from zed-industries/extensions and zed's extension_cli).
 
 usage: python3 -I tools/check.py
 """
@@ -183,6 +185,31 @@ expect('d="M2 3.5L9.5 3.5L9.5 12.8"' in kit.line((2, 3.3), (9.2, 3.3), (9.2, 12.
        "kit.line should move a segment across its direction only: y of the flat one, x of the upright one")
 expect('d="M2 2L9 4"' in kit.line((2, 2), (9, 4)), "kit.line should leave a diagonal alone")
 expect('x="2.5" y="2.5" width="11" height="11"' in kit.rrect(2.3, 2.7, 11.2, 10.9), "kit.rrect edges should sit on pixel centres")
+
+# 7. registry rules. Packaging fails without a repository URL, a description longer than the name,
+# an author, or an accepted licence; the ID and name rules come from the registry's validation.js.
+import tomllib  # noqa: E402
+
+with open(os.path.join(ROOT, "extension.toml"), "rb") as f:
+    manifest = tomllib.load(f)
+ext_id, ext_name = manifest.get("id", ""), manifest.get("name", "")
+expect(re.fullmatch(r"[a-z0-9-]+", ext_id) and not ext_id.startswith("zed-") and not ext_id.endswith("-zed")
+       and "extension" not in ext_id, f"extension id {ext_id!r} breaks the registry's id rules")
+expect(ext_id.endswith(("-icons", "-icon-theme")), "an icon theme's id should end in -icons or -icon-theme")
+expect(ext_name.strip() and not ext_name.startswith("Zed ") and not ext_name.endswith(" Zed")
+       and "extension" not in ext_name.lower(), f"extension name {ext_name!r} breaks the registry's name rules")
+expect(len(manifest.get("description", "").strip()) > len(ext_name.strip()), "description must be longer than the name")
+expect(any(a.strip() for a in manifest.get("authors", [])), "extension.toml needs an author")
+expect(re.match(r"https://[^/\s]+/\S+", manifest.get("repository", "")), "extension.toml needs a repository URL")
+expect(manifest.get("schema_version") == 1, "schema_version must be 1")
+expect([d for d in ("languages", "themes", "grammars", "snippets", "debug_adapter_schemas") if os.path.isdir(os.path.join(ROOT, d))] == [],
+       "an icon theme extension must provide nothing else")
+licence = re.sub(r"\s+", " ", open(os.path.join(ROOT, "LICENSE"), encoding="utf-8").read())
+expect(all(re.search(p, licence, re.I) for p in (
+    r"Copyright", r"Permission is hereby granted, free of charge, to any person obtaining a copy",
+    r"The above copyright notice and this permission notice shall be included in all",
+    r'THE SOFTWARE IS PROVIDED ["\u201c]AS IS["\u201d], WITHOUT WARRANTY OF ANY KIND, EXPRESS OR')),
+    "LICENSE is not recognisably MIT (the registry matches these phrases)")
 
 if failures:
     print(f"{len(failures)} problems:", *failures[:40], sep="\n  ")
