@@ -1,0 +1,7864 @@
+{
+ "source": {
+  "vscode-icons-zed": "f52dc01794c9e6571a0a077b7a87445208dce727",
+  "zed": "654efae441bc8eb117d0042bb28cd7cf3570bdc9"
+ },
+ "zed_blank_keys": [
+  "backup",
+  "bicep",
+  "crystal",
+  "csharp",
+  "csproj",
+  "cue",
+  "fsproj",
+  "solidity",
+  "vbproj",
+  "vs_sln",
+  "vs_suo"
+ ],
+ "zed_default": {
+  "stems": {
+   ".dockerignore": "docker",
+   "Containerfile": "docker",
+   "Dockerfile": "docker",
+   "Podfile": "ruby",
+   "Procfile": "heroku"
+  },
+  "suffixes": {
+   "COMMIT_EDITMSG": "vcs",
+   "Chart.lock": "helm",
+   "Chart.yaml": "helm",
+   "Chart.yml": "helm",
+   "EDIT_DESCRIPTION": "vcs",
+   "Emakefile": "erlang",
+   "MERGE_MSG": "vcs",
+   "NOTES_EDITMSG": "vcs",
+   "R": "r",
+   "RData": "storage",
+   "TAG_EDITMSG": "vcs",
+   "aac": "audio",
+   "accdb": "storage",
+   "app.src": "erlang",
+   "astro": "astro",
+   "avi": "video",
+   "avif": "image",
+   "bak": "backup",
+   "bal": "ballerina",
+   "bash": "terminal",
+   "bash_aliases": "terminal",
+   "bash_login": "terminal",
+   "bash_logout": "terminal",
+   "bash_profile": "terminal",
+   "bashrc": "terminal",
+   "bicep": "bicep",
+   "bmp": "image",
+   "brushrc": "terminal",
+   "c": "c",
+   "c++": "cpp",
+   "cairo": "cairo",
+   "cc": "cpp",
+   "cjs": "javascript",
+   "cjsx": "react",
+   "coffee": "coffeescript",
+   "compose.yaml": "docker",
+   "compose.yml": "docker",
+   "conf": "settings",
+   "cpp": "cpp",
+   "cppm": "cpp",
+   "cr": "crystal",
+   "cs": "csharp",
+   "csproj": "csproj",
+   "css": "css",
+   "csv": "storage",
+   "cts": "typescript",
+   "ctsx": "react",
+   "cue": "cue",
+   "cxx": "cpp",
+   "dart": "dart",
+   "dat": "storage",
+   "db": "storage",
+   "dbf": "storage",
+   "diff": "diff",
+   "dll": "storage",
+   "doc": "document",
+   "docker-compose.yaml": "docker",
+   "docker-compose.yml": "docker",
+   "docx": "document",
+   "ecr": "crystal",
+   "editorconfig": "editorconfig",
+   "eex": "elixir",
+   "elm": "elm",
+   "erl": "erlang",
+   "escript": "erlang",
+   "eslint.config.cjs": "eslint",
+   "eslint.config.cts": "eslint",
+   "eslint.config.js": "eslint",
+   "eslint.config.mjs": "eslint",
+   "eslint.config.mts": "eslint",
+   "eslint.config.ts": "eslint",
+   "eslintrc": "eslint",
+   "eslintrc.js": "eslint",
+   "eslintrc.json": "eslint",
+   "ex": "elixir",
+   "exs": "elixir",
+   "fish": "terminal",
+   "flac": "audio",
+   "fmp": "storage",
+   "fp7": "storage",
+   "frm": "storage",
+   "fs": "fsharp",
+   "fsproj": "fsproj",
+   "gdb": "storage",
+   "gif": "image",
+   "gitattributes": "vcs",
+   "gitignore": "vcs",
+   "gitkeep": "vcs",
+   "gitlab-ci.yaml": "gitlab",
+   "gitlab-ci.yml": "gitlab",
+   "gitmodules": "vcs",
+   "gleam": "gleam",
+   "go": "go",
+   "gql": "graphql",
+   "graphql": "graphql",
+   "graphqls": "graphql",
+   "h": "c",
+   "h++": "cpp",
+   "handlebars": "code",
+   "hbs": "template",
+   "hcl": "hcl",
+   "heex": "elixir",
+   "heic": "image",
+   "heif": "image",
+   "helmfile.yaml": "helm",
+   "helmfile.yml": "helm",
+   "hh": "cpp",
+   "hpp": "cpp",
+   "hrl": "erlang",
+   "hs": "haskell",
+   "htm": "html",
+   "html": "html",
+   "hxx": "cpp",
+   "ib": "storage",
+   "ico": "image",
+   "ini": "settings",
+   "inl": "cpp",
+   "ipynb": "ipynb",
+   "ixx": "cpp",
+   "j2k": "image",
+   "java": "java",
+   "jfif": "image",
+   "jl": "julia",
+   "jp2": "image",
+   "jpeg": "image",
+   "jpg": "image",
+   "js": "javascript",
+   "json": "json",
+   "jsonc": "json",
+   "jsx": "react",
+   "jxl": "image",
+   "kdl": "kdl",
+   "kt": "kotlin",
+   "ldf": "storage",
+   "leex": "elixir",
+   "lock": "lock",
+   "lockb": "bun",
+   "log": "log",
+   "lua": "lua",
+   "luau": "luau",
+   "m4a": "audio",
+   "m4v": "video",
+   "markdown": "markdown",
+   "md": "markdown",
+   "mdb": "storage",
+   "mdf": "storage",
+   "mdx": "document",
+   "metadata": "code",
+   "metal": "metal",
+   "mjs": "javascript",
+   "mjsx": "react",
+   "mka": "audio",
+   "mkv": "video",
+   "ml": "ocaml",
+   "mli": "ocaml",
+   "mlx": "ocaml",
+   "mod": "go",
+   "mov": "video",
+   "mp3": "audio",
+   "mp4": "video",
+   "mts": "typescript",
+   "mtsx": "react",
+   "myd": "storage",
+   "myi": "storage",
+   "neex": "elixir",
+   "nim": "nim",
+   "nimble": "nim",
+   "nims": "nim",
+   "nix": "nix",
+   "nu": "terminal",
+   "odin": "odin",
+   "odp": "document",
+   "ods": "document",
+   "odt": "document",
+   "ogg": "audio",
+   "opus": "audio",
+   "otf": "font",
+   "pcss": "css",
+   "pdb": "storage",
+   "pdf": "document",
+   "php": "php",
+   "plist": "template",
+   "png": "image",
+   "postcss": "css",
+   "pp": "puppet",
+   "ppt": "document",
+   "pptx": "document",
+   "prettier.config.cjs": "prettier",
+   "prettier.config.js": "prettier",
+   "prettier.config.mjs": "prettier",
+   "prettierignore": "prettier",
+   "prettierrc": "prettier",
+   "prettierrc.cjs": "prettier",
+   "prettierrc.js": "prettier",
+   "prettierrc.json": "prettier",
+   "prettierrc.json5": "prettier",
+   "prettierrc.mjs": "prettier",
+   "prettierrc.toml": "prettier",
+   "prettierrc.yaml": "prettier",
+   "prettierrc.yml": "prettier",
+   "prisma": "prisma",
+   "profile": "terminal",
+   "ps1": "terminal",
+   "psd": "image",
+   "psv": "storage",
+   "py": "python",
+   "qoi": "image",
+   "r": "r",
+   "rb": "ruby",
+   "rdata": "storage",
+   "rebar.config": "erlang",
+   "requirements.yaml": "helm",
+   "requirements.yml": "helm",
+   "rkt": "code",
+   "roc": "roc",
+   "rs": "rust",
+   "rtf": "document",
+   "sass": "sass",
+   "sav": "storage",
+   "sc": "scala",
+   "scala": "scala",
+   "scm": "code",
+   "scss": "sass",
+   "sdf": "storage",
+   "sh": "terminal",
+   "sln": "vs_sln",
+   "sol": "solidity",
+   "sql": "storage",
+   "sqlite": "storage",
+   "ssv": "storage",
+   "stylelint.config.cjs": "stylelint",
+   "stylelint.config.js": "stylelint",
+   "stylelint.config.mjs": "stylelint",
+   "stylelintignore": "stylelint",
+   "stylelintrc": "stylelint",
+   "stylelintrc.cjs": "stylelint",
+   "stylelintrc.js": "stylelint",
+   "stylelintrc.json": "stylelint",
+   "stylelintrc.mjs": "stylelint",
+   "stylelintrc.yaml": "stylelint",
+   "stylelintrc.yml": "stylelint",
+   "suo": "vs_suo",
+   "surql": "surrealql",
+   "svelte": "svelte",
+   "svg": "image",
+   "swift": "swift",
+   "tcl": "tcl",
+   "tf": "terraform",
+   "tfvars": "terraform",
+   "tiff": "image",
+   "toml": "toml",
+   "tpl": "helm",
+   "ts": "typescript",
+   "tsv": "storage",
+   "tsx": "react",
+   "ttf": "font",
+   "txt": "document",
+   "v": "v",
+   "values.yaml": "helm",
+   "values.yml": "helm",
+   "vbproj": "vbproj",
+   "vsh": "v",
+   "vue": "vue",
+   "vv": "v",
+   "vy": "vyper",
+   "vyi": "vyper",
+   "wav": "audio",
+   "webm": "video",
+   "webp": "image",
+   "wgsl": "wgsl",
+   "wma": "audio",
+   "wmv": "video",
+   "woff": "font",
+   "woff2": "font",
+   "work": "go",
+   "wv": "audio",
+   "xls": "document",
+   "xlsx": "document",
+   "xml": "template",
+   "xrl": "erlang",
+   "yaml": "yaml",
+   "yml": "yaml",
+   "yrl": "erlang",
+   "zig": "zig",
+   "zlogin": "terminal",
+   "zlogout": "terminal",
+   "zprofile": "terminal",
+   "zsh": "terminal",
+   "zsh_aliases": "terminal",
+   "zsh_histfile": "terminal",
+   "zsh_history": "terminal",
+   "zshenv": "terminal",
+   "zshrc": "terminal"
+  },
+  "icons": {
+   "astro": "astro.svg",
+   "audio": "audio.svg",
+   "ballerina": "ballerina.svg",
+   "bicep": "file.svg",
+   "bun": "bun.svg",
+   "c": "c.svg",
+   "cairo": "cairo.svg",
+   "code": "code.svg",
+   "coffeescript": "coffeescript.svg",
+   "cpp": "cpp.svg",
+   "crystal": "file.svg",
+   "csharp": "file.svg",
+   "csproj": "file.svg",
+   "css": "css.svg",
+   "cue": "file.svg",
+   "dart": "dart.svg",
+   "default": "file.svg",
+   "diff": "diff.svg",
+   "docker": "docker.svg",
+   "document": "book.svg",
+   "editorconfig": "editorconfig.svg",
+   "elixir": "elixir.svg",
+   "elm": "elm.svg",
+   "erlang": "erlang.svg",
+   "eslint": "eslint.svg",
+   "font": "font.svg",
+   "fsharp": "fsharp.svg",
+   "fsproj": "file.svg",
+   "gitlab": "gitlab.svg",
+   "gleam": "gleam.svg",
+   "go": "go.svg",
+   "graphql": "graphql.svg",
+   "haskell": "haskell.svg",
+   "hcl": "hcl.svg",
+   "helm": "helm.svg",
+   "heroku": "heroku.svg",
+   "html": "html.svg",
+   "image": "image.svg",
+   "ipynb": "jupyter.svg",
+   "java": "java.svg",
+   "javascript": "javascript.svg",
+   "json": "code.svg",
+   "julia": "julia.svg",
+   "kdl": "kdl.svg",
+   "kotlin": "kotlin.svg",
+   "lock": "lock.svg",
+   "log": "info.svg",
+   "lua": "lua.svg",
+   "luau": "luau.svg",
+   "markdown": "book.svg",
+   "metal": "metal.svg",
+   "nim": "nim.svg",
+   "nix": "nix.svg",
+   "ocaml": "ocaml.svg",
+   "odin": "odin.svg",
+   "phoenix": "phoenix.svg",
+   "php": "php.svg",
+   "prettier": "prettier.svg",
+   "prisma": "prisma.svg",
+   "puppet": "puppet.svg",
+   "python": "python.svg",
+   "r": "r.svg",
+   "react": "react.svg",
+   "roc": "roc.svg",
+   "ruby": "ruby.svg",
+   "rust": "rust.svg",
+   "sass": "sass.svg",
+   "scala": "scala.svg",
+   "settings": "settings.svg",
+   "solidity": "file.svg",
+   "storage": "database.svg",
+   "stylelint": "javascript.svg",
+   "surrealql": "surrealql.svg",
+   "svelte": "html.svg",
+   "swift": "swift.svg",
+   "tcl": "tcl.svg",
+   "template": "html.svg",
+   "terminal": "terminal.svg",
+   "terraform": "terraform.svg",
+   "toml": "toml.svg",
+   "typescript": "typescript.svg",
+   "v": "v.svg",
+   "vbproj": "file.svg",
+   "vcs": "git.svg",
+   "video": "video.svg",
+   "vs_sln": "file.svg",
+   "vs_suo": "file.svg",
+   "vue": "vue.svg",
+   "vyper": "vyper.svg",
+   "wgsl": "wgsl.svg",
+   "yaml": "yaml.svg",
+   "zig": "zig.svg"
+  }
+ },
+ "keys": {
+  "access": {
+   "stems": [],
+   "suffixes": [
+    "accda",
+    "accdc",
+    "accde",
+    "accdp",
+    "accdr",
+    "accdt",
+    "accdu",
+    "ade",
+    "adp",
+    "laccdb",
+    "ldb",
+    "mam",
+    "maq",
+    "mdw"
+   ]
+  },
+  "actionscript": {
+   "stems": [],
+   "suffixes": [
+    "as",
+    "part"
+   ]
+  },
+  "ada": {
+   "stems": [],
+   "suffixes": [
+    "ada"
+   ]
+  },
+  "advpl": {
+   "stems": [],
+   "suffixes": [
+    "prw"
+   ]
+  },
+  "affectscript": {
+   "stems": [],
+   "suffixes": [
+    "affect"
+   ]
+  },
+  "affinity": {
+   "stems": [],
+   "suffixes": [
+    "af",
+    "aftemplate"
+   ]
+  },
+  "affinitydesigner": {
+   "stems": [],
+   "suffixes": [
+    "afdesign",
+    "affinitydesigner"
+   ]
+  },
+  "affinityphoto": {
+   "stems": [],
+   "suffixes": [
+    "affinityphoto",
+    "afphoto"
+   ]
+  },
+  "affinitypublisher": {
+   "stems": [],
+   "suffixes": [
+    "affinitypublisher",
+    "afpub"
+   ]
+  },
+  "agda": {
+   "stems": [],
+   "suffixes": [
+    "agda"
+   ]
+  },
+  "agents": {
+   "stems": [
+    "agents.md"
+   ],
+   "suffixes": []
+  },
+  "ai": {
+   "stems": [],
+   "suffixes": [
+    "ai"
+   ]
+  },
+  "aikido": {
+   "stems": [
+    ".aikido"
+   ],
+   "suffixes": []
+  },
+  "al": {
+   "stems": [],
+   "suffixes": [
+    "al"
+   ]
+  },
+  "al_dal": {
+   "stems": [],
+   "suffixes": [
+    "dal"
+   ]
+  },
+  "alchemy": {
+   "stems": [
+    "alchemy.run.js",
+    "alchemy.run.mjs",
+    "alchemy.run.mts",
+    "alchemy.run.ts"
+   ],
+   "suffixes": []
+  },
+  "allcontributors": {
+   "stems": [
+    ".all-contributorsrc"
+   ],
+   "suffixes": []
+  },
+  "alloy": {
+   "stems": [],
+   "suffixes": [
+    "alloy"
+   ]
+  },
+  "allure": {
+   "stems": [
+    "allurerc.cjs",
+    "allurerc.js",
+    "allurerc.json",
+    "allurerc.mjs",
+    "allurerc.yaml",
+    "allurerc.yml"
+   ],
+   "suffixes": []
+  },
+  "angular": {
+   "stems": [
+    ".angular-cli.json",
+    ".angular-config.json",
+    ".angular.json",
+    "angular-cli.json",
+    "angular.json",
+    "ngsw-config.json",
+    "ngsw.json"
+   ],
+   "suffixes": []
+  },
+  "ansible": {
+   "stems": [],
+   "suffixes": [
+    "ansible"
+   ]
+  },
+  "antlers_html": {
+   "stems": [
+    "antlers.html"
+   ],
+   "suffixes": []
+  },
+  "antlr": {
+   "stems": [],
+   "suffixes": [
+    "g4"
+   ]
+  },
+  "anyscript": {
+   "stems": [],
+   "suffixes": [
+    "any"
+   ]
+  },
+  "apache": {
+   "stems": [],
+   "suffixes": [
+    "htaccess"
+   ]
+  },
+  "api_extractor": {
+   "stems": [
+    "api-extractor-base.json",
+    "api-extractor.json"
+   ],
+   "suffixes": []
+  },
+  "apib": {
+   "stems": [],
+   "suffixes": [
+    "apib"
+   ]
+  },
+  "apl": {
+   "stems": [],
+   "suffixes": [
+    "apl"
+   ]
+  },
+  "applescript": {
+   "stems": [],
+   "suffixes": [
+    "applescript"
+   ]
+  },
+  "appscript": {
+   "stems": [],
+   "suffixes": [
+    "gs"
+   ]
+  },
+  "appsemble": {
+   "stems": [
+    ".appsemblerc.yaml",
+    "app-definition.yaml"
+   ],
+   "suffixes": []
+  },
+  "appveyor": {
+   "stems": [
+    ".appveyor.yml",
+    "appveyor.yml"
+   ],
+   "suffixes": []
+  },
+  "arduino": {
+   "stems": [],
+   "suffixes": [
+    "ino",
+    "pde"
+   ]
+  },
+  "asciidoc": {
+   "stems": [],
+   "suffixes": [
+    "adoc"
+   ]
+  },
+  "aseprite": {
+   "stems": [],
+   "suffixes": [
+    "ase",
+    "aseprite"
+   ]
+  },
+  "asp": {
+   "stems": [],
+   "suffixes": [
+    "asp"
+   ]
+  },
+  "aspx": {
+   "stems": [],
+   "suffixes": [
+    "ascx",
+    "aspx"
+   ]
+  },
+  "assembly": {
+   "stems": [],
+   "suffixes": [
+    "asm",
+    "s"
+   ]
+  },
+  "assembly_script": {
+   "stems": [
+    "asconfig.json"
+   ],
+   "suffixes": []
+  },
+  "astroconfig": {
+   "stems": [
+    "astro.config.cjs",
+    "astro.config.cts",
+    "astro.config.js",
+    "astro.config.mjs",
+    "astro.config.mts",
+    "astro.config.ts"
+   ],
+   "suffixes": []
+  },
+  "asyncapi": {
+   "stems": [
+    "asyncapi.json",
+    "asyncapi.yaml"
+   ],
+   "suffixes": []
+  },
+  "atom": {
+   "stems": [],
+   "suffixes": [
+    "atom"
+   ]
+  },
+  "ats": {
+   "stems": [],
+   "suffixes": [
+    "ats"
+   ]
+  },
+  "attw": {
+   "stems": [
+    ".attw.json"
+   ],
+   "suffixes": []
+  },
+  "audio": {
+   "stems": [],
+   "suffixes": [
+    "act",
+    "aiff",
+    "amr",
+    "ape",
+    "au",
+    "dct",
+    "dss",
+    "dvf",
+    "gsm",
+    "iklax",
+    "ivs",
+    "m4b",
+    "m4p",
+    "mmf",
+    "mogg",
+    "mpc",
+    "msv",
+    "oga",
+    "ra",
+    "raw",
+    "tta",
+    "vox"
+   ]
+  },
+  "aurelia": {
+   "stems": [
+    "aurelia.json"
+   ],
+   "suffixes": []
+  },
+  "autohotkey": {
+   "stems": [],
+   "suffixes": [
+    "ahk"
+   ]
+  },
+  "autoit": {
+   "stems": [],
+   "suffixes": [
+    "au3"
+   ]
+  },
+  "avro": {
+   "stems": [],
+   "suffixes": [
+    "avcs"
+   ]
+  },
+  "awk": {
+   "stems": [],
+   "suffixes": [
+    "awk"
+   ]
+  },
+  "azure": {
+   "stems": [],
+   "suffixes": [
+    "azcli"
+   ]
+  },
+  "azurepipelines": {
+   "stems": [
+    ".vsts-ci.yml",
+    "azure-pipelines.yml"
+   ],
+   "suffixes": []
+  },
+  "azureresourcemanager": {
+   "stems": [
+    "azuredeploy.json",
+    "azuredeploy.parameters.json",
+    "azuredeploy.parameters.us.json",
+    "createUiDefinition.json"
+   ],
+   "suffixes": []
+  },
+  "azurestreamanalytics": {
+   "stems": [],
+   "suffixes": [
+    "asaql"
+   ]
+  },
+  "babel": {
+   "stems": [
+    ".babelignore",
+    ".babelrc",
+    ".babelrc.cjs",
+    ".babelrc.js",
+    ".babelrc.json",
+    ".babelrc.mjs",
+    "babel.config.cjs",
+    "babel.config.js",
+    "babel.config.json",
+    "babel.config.mjs"
+   ],
+   "suffixes": []
+  },
+  "bak": {
+   "stems": [],
+   "suffixes": [
+    "back",
+    "backup"
+   ]
+  },
+  "bat": {
+   "stems": [],
+   "suffixes": [
+    "bat"
+   ]
+  },
+  "bats": {
+   "stems": [],
+   "suffixes": [
+    "bats"
+   ]
+  },
+  "bazaar": {
+   "stems": [
+    ".bzrignore"
+   ],
+   "suffixes": []
+  },
+  "bazel": {
+   "stems": [
+    ".bazelrc",
+    "BUILD.bazel",
+    "bazel.bazelrc",
+    "bazel.rc"
+   ],
+   "suffixes": [
+    "bazel",
+    "bzl"
+   ]
+  },
+  "bazel_ignore": {
+   "stems": [
+    ".bazelignore"
+   ],
+   "suffixes": []
+  },
+  "bazel_version": {
+   "stems": [
+    ".bazelversion"
+   ],
+   "suffixes": []
+  },
+  "befunge": {
+   "stems": [],
+   "suffixes": [
+    "bf"
+   ]
+  },
+  "behat": {
+   "stems": [
+    "behat.dist.php",
+    "behat.dist.yaml",
+    "behat.dist.yml",
+    "behat.php",
+    "behat.yaml",
+    "behat.yaml.dist",
+    "behat.yml",
+    "behat.yml.dist"
+   ],
+   "suffixes": []
+  },
+  "biml": {
+   "stems": [],
+   "suffixes": [
+    "biml"
+   ]
+  },
+  "binary": {
+   "stems": [],
+   "suffixes": [
+    "a",
+    "app",
+    "bin",
+    "cma",
+    "cmi",
+    "cmo",
+    "cmx",
+    "cmxa",
+    "exe",
+    "hl",
+    "ilk",
+    "lib",
+    "n",
+    "ndll",
+    "o",
+    "obj",
+    "pyc",
+    "pyd",
+    "pyo",
+    "scpt",
+    "scptd",
+    "so"
+   ]
+  },
+  "biome": {
+   "stems": [
+    ".biome.json",
+    ".biome.jsonc",
+    "biome.json",
+    "biome.jsonc"
+   ],
+   "suffixes": []
+  },
+  "bitbucketpipeline": {
+   "stems": [
+    "bitbucket-pipelines.yml"
+   ],
+   "suffixes": []
+  },
+  "bithound": {
+   "stems": [
+    ".bithoundrc"
+   ],
+   "suffixes": []
+  },
+  "blade": {
+   "stems": [],
+   "suffixes": [
+    "blade.php"
+   ]
+  },
+  "blender": {
+   "stems": [],
+   "suffixes": [
+    "blend"
+   ]
+  },
+  "blitzbasic": {
+   "stems": [],
+   "suffixes": [
+    "bb",
+    "blitzbasic"
+   ]
+  },
+  "bolt": {
+   "stems": [],
+   "suffixes": [
+    "bolt"
+   ]
+  },
+  "bosque": {
+   "stems": [],
+   "suffixes": [
+    "bsq"
+   ]
+  },
+  "bower": {
+   "stems": [
+    ".bowerrc",
+    "bower.json"
+   ],
+   "suffixes": []
+  },
+  "brakeman": {
+   "stems": [
+    "brakeman.ignore",
+    "brakeman.yml"
+   ],
+   "suffixes": []
+  },
+  "brew": {
+   "stems": [
+    ".Brewfile",
+    "Brewfile"
+   ],
+   "suffixes": []
+  },
+  "browserslist": {
+   "stems": [
+    ".browserslistrc",
+    "browserslist"
+   ],
+   "suffixes": []
+  },
+  "bruno": {
+   "stems": [],
+   "suffixes": [
+    "bru"
+   ]
+  },
+  "buckbuild": {
+   "stems": [
+    ".buckconfig",
+    ".buckconfig.local",
+    ".buckjavaargs",
+    "BUCK"
+   ],
+   "suffixes": []
+  },
+  "buf": {
+   "stems": [
+    "buf.gen.yaml",
+    "buf.gen.yml",
+    "buf.work.yaml",
+    "buf.work.yml",
+    "buf.yaml",
+    "buf.yml"
+   ],
+   "suffixes": []
+  },
+  "bun": {
+   "stems": [
+    ".bun-version",
+    ".bunfig.toml",
+    "bun.lock",
+    "bun.lockb"
+   ],
+   "suffixes": []
+  },
+  "bundlemon": {
+   "stems": [
+    ".bundlemonrc",
+    ".bundlemonrc.cjs",
+    ".bundlemonrc.js",
+    ".bundlemonrc.json",
+    ".bundlemonrc.mjs",
+    ".bundlemonrc.yaml",
+    ".bundlemonrc.yml",
+    "bundlemon.config.cjs",
+    "bundlemon.config.js",
+    "bundlemon.config.mjs"
+   ],
+   "suffixes": []
+  },
+  "bundler": {
+   "stems": [
+    "gemfile",
+    "gemfile.lock"
+   ],
+   "suffixes": []
+  },
+  "bunfig": {
+   "stems": [
+    "bunfig.toml"
+   ],
+   "suffixes": []
+  },
+  "c3": {
+   "stems": [],
+   "suffixes": [
+    "c3"
+   ]
+  },
+  "c_al": {
+   "stems": [],
+   "suffixes": [
+    "cal"
+   ]
+  },
+  "cabal": {
+   "stems": [],
+   "suffixes": [
+    "cabal"
+   ]
+  },
+  "caddy": {
+   "stems": [
+    "Caddyfile"
+   ],
+   "suffixes": []
+  },
+  "cadence": {
+   "stems": [],
+   "suffixes": [
+    "cdc"
+   ]
+  },
+  "cake": {
+   "stems": [],
+   "suffixes": [
+    "cake"
+   ]
+  },
+  "cangjie": {
+   "stems": [],
+   "suffixes": [
+    "cj"
+   ]
+  },
+  "capacitor": {
+   "stems": [
+    "capacitor.config.json",
+    "capacitor.config.ts"
+   ],
+   "suffixes": []
+  },
+  "capnp": {
+   "stems": [],
+   "suffixes": [
+    "capnp"
+   ]
+  },
+  "cargo": {
+   "stems": [
+    "Cargo.lock",
+    "Cargo.toml"
+   ],
+   "suffixes": []
+  },
+  "casc": {
+   "stems": [],
+   "suffixes": [
+    "casc"
+   ]
+  },
+  "cddl": {
+   "stems": [],
+   "suffixes": [
+    "cddl"
+   ]
+  },
+  "cert": {
+   "stems": [],
+   "suffixes": [
+    "cer",
+    "crl",
+    "crt",
+    "csr",
+    "der",
+    "p12",
+    "p7b",
+    "p7r",
+    "pfx",
+    "src",
+    "sst",
+    "stl"
+   ]
+  },
+  "ceylon": {
+   "stems": [],
+   "suffixes": [
+    "ceylon"
+   ]
+  },
+  "cf": {
+   "stems": [],
+   "suffixes": [
+    "cfml",
+    "lucee"
+   ]
+  },
+  "cfc": {
+   "stems": [],
+   "suffixes": [
+    "cfc"
+   ]
+  },
+  "cfm": {
+   "stems": [],
+   "suffixes": [
+    "cfm"
+   ]
+  },
+  "changelogen": {
+   "stems": [
+    ".changelogenrc",
+    ".changelogrc",
+    "changelog.config.cjs",
+    "changelog.config.js",
+    "changelog.config.json",
+    "changelog.config.mjs",
+    "changelog.config.ts"
+   ],
+   "suffixes": []
+  },
+  "changie": {
+   "stems": [
+    ".changie.yaml",
+    ".changie.yml"
+   ],
+   "suffixes": []
+  },
+  "checkov": {
+   "stems": [
+    ".checkov.yaml",
+    ".checkov.yml"
+   ],
+   "suffixes": []
+  },
+  "chef": {
+   "stems": [
+    "berksfile",
+    "berksfile.lock",
+    "chefignore",
+    "policyfile.lock.json",
+    "policyfile.rb"
+   ],
+   "suffixes": []
+  },
+  "chef_cookbook": {
+   "stems": [],
+   "suffixes": [
+    "ckbk"
+   ]
+  },
+  "circleci": {
+   "stems": [
+    "circle.yml"
+   ],
+   "suffixes": []
+  },
+  "circom": {
+   "stems": [],
+   "suffixes": [
+    "circom"
+   ]
+  },
+  "clangd": {
+   "stems": [
+    ".clangd"
+   ],
+   "suffixes": []
+  },
+  "class": {
+   "stems": [],
+   "suffixes": [
+    "class"
+   ]
+  },
+  "claude": {
+   "stems": [
+    "claude.local.md",
+    "claude.md"
+   ],
+   "suffixes": []
+  },
+  "clojure": {
+   "stems": [],
+   "suffixes": [
+    "cjm",
+    "cljc",
+    "clojure"
+   ]
+  },
+  "clojurescript": {
+   "stems": [],
+   "suffixes": [
+    "cljs",
+    "clojurescript"
+   ]
+  },
+  "cloudflare": {
+   "stems": [
+    "wrangler.json",
+    "wrangler.jsonc",
+    "wrangler.toml"
+   ],
+   "suffixes": []
+  },
+  "cloudfoundry": {
+   "stems": [
+    ".cfignore"
+   ],
+   "suffixes": []
+  },
+  "cmake": {
+   "stems": [
+    "CMakeCache.txt",
+    "CMakeLists.txt"
+   ],
+   "suffixes": [
+    "cmake"
+   ]
+  },
+  "cobol": {
+   "stems": [],
+   "suffixes": [
+    "cbl"
+   ]
+  },
+  "codacy": {
+   "stems": [
+    ".codacy.yaml",
+    ".codacy.yml"
+   ],
+   "suffixes": []
+  },
+  "codeclimate": {
+   "stems": [
+    ".codeclimate.yml"
+   ],
+   "suffixes": []
+  },
+  "codecov": {
+   "stems": [
+    ".codecov.yml",
+    "codecov.yml"
+   ],
+   "suffixes": []
+  },
+  "codegen": {
+   "stems": [
+    ".codegenrc.js",
+    ".codegenrc.json",
+    ".codegenrc.ts",
+    ".codegenrc.yaml",
+    ".codegenrc.yml",
+    "codegen.config.js",
+    "codegen.js",
+    "codegen.json",
+    "codegen.ts",
+    "codegen.yaml",
+    "codegen.yml"
+   ],
+   "suffixes": []
+  },
+  "codekit": {
+   "stems": [
+    ".config.codekit",
+    ".config.codekit2",
+    ".config.codekit3",
+    "config.codekit",
+    "config.codekit2",
+    "config.codekit3"
+   ],
+   "suffixes": [
+    "kit"
+   ]
+  },
+  "codemagic": {
+   "stems": [
+    "codemagic.yaml"
+   ],
+   "suffixes": []
+  },
+  "codeowners": {
+   "stems": [
+    "codeowners"
+   ],
+   "suffixes": []
+  },
+  "codeql": {
+   "stems": [],
+   "suffixes": [
+    "ql"
+   ]
+  },
+  "coderabbit": {
+   "stems": [
+    ".coderabbit.yaml"
+   ],
+   "suffixes": []
+  },
+  "coffeelint": {
+   "stems": [
+    ".coffeelintignore",
+    "coffeelint.json"
+   ],
+   "suffixes": []
+  },
+  "commitizen": {
+   "stems": [
+    ".cz.json",
+    ".czrc"
+   ],
+   "suffixes": []
+  },
+  "commitlint": {
+   "stems": [
+    ".commitlintrc",
+    ".commitlintrc.cjs",
+    ".commitlintrc.cts",
+    ".commitlintrc.js",
+    ".commitlintrc.json",
+    ".commitlintrc.mjs",
+    ".commitlintrc.ts",
+    ".commitlintrc.yaml",
+    ".commitlintrc.yml",
+    "commitlint.config.cjs",
+    "commitlint.config.cts",
+    "commitlint.config.js",
+    "commitlint.config.mjs",
+    "commitlint.config.ts"
+   ],
+   "suffixes": []
+  },
+  "composer": {
+   "stems": [
+    "composer.json",
+    "composer.lock"
+   ],
+   "suffixes": []
+  },
+  "conan": {
+   "stems": [
+    "conanfile.py",
+    "conanfile.txt"
+   ],
+   "suffixes": []
+  },
+  "conda": {
+   "stems": [
+    ".condarc"
+   ],
+   "suffixes": []
+  },
+  "config": {
+   "stems": [
+    ".tool-versions"
+   ],
+   "suffixes": [
+    "properties"
+   ]
+  },
+  "confluence": {
+   "stems": [],
+   "suffixes": [
+    "confluence"
+   ]
+  },
+  "context7": {
+   "stems": [
+    "context7.json"
+   ],
+   "suffixes": []
+  },
+  "convex": {
+   "stems": [
+    "convex.config.js",
+    "convex.config.ts",
+    "convex.json"
+   ],
+   "suffixes": []
+  },
+  "copilot": {
+   "stems": [
+    "copilot-instructions.md",
+    "github-copilot.xml"
+   ],
+   "suffixes": [
+    "instructions.md"
+   ]
+  },
+  "coverage": {
+   "stems": [
+    ".coverage",
+    "lcov.info"
+   ],
+   "suffixes": [
+    "lcov"
+   ]
+  },
+  "coveralls": {
+   "stems": [
+    ".coveralls.yml"
+   ],
+   "suffixes": []
+  },
+  "craco": {
+   "stems": [
+    ".cracorc",
+    ".cracorc.js",
+    ".cracorc.ts",
+    "craco.config.cjs",
+    "craco.config.js",
+    "craco.config.ts"
+   ],
+   "suffixes": []
+  },
+  "crowdin": {
+   "stems": [
+    "crowdin.yml"
+   ],
+   "suffixes": []
+  },
+  "csharp": {
+   "stems": [],
+   "suffixes": [
+    "csx"
+   ]
+  },
+  "cspell": {
+   "stems": [
+    ".cspell.config.cjs",
+    ".cspell.config.cts",
+    ".cspell.config.js",
+    ".cspell.config.json",
+    ".cspell.config.jsonc",
+    ".cspell.config.mjs",
+    ".cspell.config.mts",
+    ".cspell.config.toml",
+    ".cspell.config.ts",
+    ".cspell.config.yaml",
+    ".cspell.config.yml",
+    ".cspell.json",
+    ".cspell.jsonc",
+    ".cspell.yaml",
+    ".cspell.yml",
+    "cspell.config.cjs",
+    "cspell.config.cts",
+    "cspell.config.js",
+    "cspell.config.json",
+    "cspell.config.jsonc",
+    "cspell.config.mjs",
+    "cspell.config.mts",
+    "cspell.config.toml",
+    "cspell.config.ts",
+    "cspell.config.yaml",
+    "cspell.config.yml",
+    "cspell.json",
+    "cspell.jsonc",
+    "cspell.yaml",
+    "cspell.yml"
+   ],
+   "suffixes": []
+  },
+  "css": {
+   "stems": [],
+   "suffixes": [
+    "acss",
+    "ccss",
+    "mcss",
+    "nss"
+   ]
+  },
+  "csscomb": {
+   "stems": [
+    ".csscomb.json"
+   ],
+   "suffixes": []
+  },
+  "csslint": {
+   "stems": [
+    ".csslintrc"
+   ],
+   "suffixes": []
+  },
+  "cssmap": {
+   "stems": [],
+   "suffixes": [
+    "css.map"
+   ]
+  },
+  "cucumber": {
+   "stems": [],
+   "suffixes": [
+    "feature"
+   ]
+  },
+  "cuda": {
+   "stems": [],
+   "suffixes": [
+    "cu"
+   ]
+  },
+  "cursorrules": {
+   "stems": [
+    ".cursorignore",
+    ".cursorindexingignore",
+    ".cursorrules"
+   ],
+   "suffixes": []
+  },
+  "cvs": {
+   "stems": [
+    ".cvsignore"
+   ],
+   "suffixes": []
+  },
+  "cypress": {
+   "stems": [
+    "cypress.config.cjs",
+    "cypress.config.js",
+    "cypress.config.mjs",
+    "cypress.config.ts",
+    "cypress.env.json",
+    "cypress.json"
+   ],
+   "suffixes": []
+  },
+  "cypress_spec": {
+   "stems": [],
+   "suffixes": [
+    "cy.cjs",
+    "cy.coffee",
+    "cy.js",
+    "cy.jsx",
+    "cy.mjs",
+    "cy.ts",
+    "cy.tsx"
+   ]
+  },
+  "darcs": {
+   "stems": [
+    ".boringignore"
+   ],
+   "suffixes": []
+  },
+  "dartlang_generated": {
+   "stems": [],
+   "suffixes": [
+    "freezed.dart",
+    "g.dart"
+   ]
+  },
+  "dartlang_ignore": {
+   "stems": [
+    ".pubignore"
+   ],
+   "suffixes": []
+  },
+  "databricks": {
+   "stems": [
+    "databricks.yaml",
+    "databricks.yml"
+   ],
+   "suffixes": []
+  },
+  "datadog": {
+   "stems": [
+    "code-security.datadog.yaml",
+    "code-security.datadog.yml",
+    "datadog-ci.json",
+    "repository.datadog.yaml",
+    "repository.datadog.yml",
+    "service.datadog.yaml",
+    "static-analysis.datadog.yaml",
+    "static-analysis.datadog.yml"
+   ],
+   "suffixes": []
+  },
+  "dbml": {
+   "stems": [],
+   "suffixes": [
+    "dbml"
+   ]
+  },
+  "dbt": {
+   "stems": [
+    ".dbtignore",
+    "dbt_cloud.yml",
+    "dbt_project.yml"
+   ],
+   "suffixes": []
+  },
+  "dbt_bouncer": {
+   "stems": [
+    "dbt-bouncer.toml",
+    "dbt-bouncer.yaml",
+    "dbt-bouncer.yml"
+   ],
+   "suffixes": []
+  },
+  "debian": {
+   "stems": [
+    "aptfile"
+   ],
+   "suffixes": [
+    "deb"
+   ]
+  },
+  "deepsource": {
+   "stems": [
+    ".deepsource.toml"
+   ],
+   "suffixes": []
+  },
+  "delphi": {
+   "stems": [],
+   "suffixes": [
+    "pas"
+   ]
+  },
+  "deno": {
+   "stems": [
+    "deno.json",
+    "deno.jsonc",
+    "deno.lock"
+   ],
+   "suffixes": []
+  },
+  "denoify": {
+   "stems": [
+    ".denoifyrc",
+    "denoify.config.js",
+    "denoify.config.json"
+   ],
+   "suffixes": []
+  },
+  "dependabot": {
+   "stems": [
+    "dependabot.yaml",
+    "dependabot.yml"
+   ],
+   "suffixes": []
+  },
+  "dependencies": {
+   "stems": [
+    "dependencies.yml"
+   ],
+   "suffixes": []
+  },
+  "design_tokens": {
+   "stems": [],
+   "suffixes": [
+    "resolver.json",
+    "resolver.json5",
+    "resolver.jsonc",
+    "tokens.json",
+    "tokens.json5",
+    "tokens.jsonc"
+   ]
+  },
+  "devcontainer": {
+   "stems": [
+    ".devcontainer-lock.json",
+    ".devcontainer.json",
+    "devcontainer-lock.json",
+    "devcontainer.json"
+   ],
+   "suffixes": []
+  },
+  "devenv": {
+   "stems": [
+    "devenv.lock",
+    "devenv.nix",
+    "devenv.yaml"
+   ],
+   "suffixes": []
+  },
+  "devprune": {
+   "stems": [
+    ".devprune.json",
+    "ignore.devprune.json"
+   ],
+   "suffixes": []
+  },
+  "devvit": {
+   "stems": [
+    "devvit.config.cjs",
+    "devvit.config.dev.cjs",
+    "devvit.config.dev.js",
+    "devvit.config.dev.mjs",
+    "devvit.config.dev.mts",
+    "devvit.config.dev.ts",
+    "devvit.config.js",
+    "devvit.config.mjs",
+    "devvit.config.mts",
+    "devvit.config.prod.cjs",
+    "devvit.config.prod.js",
+    "devvit.config.prod.mjs",
+    "devvit.config.prod.mts",
+    "devvit.config.prod.ts",
+    "devvit.config.test.cjs",
+    "devvit.config.test.js",
+    "devvit.config.test.mjs",
+    "devvit.config.test.mts",
+    "devvit.config.test.ts",
+    "devvit.config.ts",
+    "devvit.dev.json",
+    "devvit.json",
+    "devvit.prod.json",
+    "devvit.test.json"
+   ],
+   "suffixes": []
+  },
+  "dhall": {
+   "stems": [],
+   "suffixes": [
+    "dhall"
+   ]
+  },
+  "direnv": {
+   "stems": [
+    ".envrc"
+   ],
+   "suffixes": []
+  },
+  "django": {
+   "stems": [],
+   "suffixes": [
+    "djt"
+   ]
+  },
+  "dlang": {
+   "stems": [],
+   "suffixes": [
+    "d"
+   ]
+  },
+  "docker": {
+   "stems": [
+    "Dockerfile.dev",
+    "Dockerfile.prod",
+    "Dockerfile.test",
+    "docker-cloud.yaml",
+    "docker-cloud.yml",
+    "docker-compose.ci-build.yaml",
+    "docker-compose.ci-build.yml",
+    "docker-compose.debug.yaml",
+    "docker-compose.debug.yml",
+    "docker-compose.override.yaml",
+    "docker-compose.override.yml",
+    "docker-compose.vs.debug.yaml",
+    "docker-compose.vs.debug.yml",
+    "docker-compose.vs.release.yaml",
+    "docker-compose.vs.release.yml"
+   ],
+   "suffixes": []
+  },
+  "dockertest": {
+   "stems": [
+    "docker-compose.test.yml"
+   ],
+   "suffixes": []
+  },
+  "docpad": {
+   "stems": [],
+   "suffixes": [
+    "eco"
+   ]
+  },
+  "docusaurus": {
+   "stems": [
+    "docusaurus.config.cjs",
+    "docusaurus.config.cts",
+    "docusaurus.config.js",
+    "docusaurus.config.mjs",
+    "docusaurus.config.mts",
+    "docusaurus.config.ts"
+   ],
+   "suffixes": []
+  },
+  "docz": {
+   "stems": [
+    ".docz.js",
+    ".docz.json",
+    ".doczrc",
+    "docz.config.js",
+    "docz.config.json",
+    "docz.js",
+    "docz.json",
+    "doczrc.js",
+    "doczrc.json"
+   ],
+   "suffixes": []
+  },
+  "dojo": {
+   "stems": [
+    ".dojorc"
+   ],
+   "suffixes": []
+  },
+  "doppler": {
+   "stems": [
+    "doppler-template.yaml",
+    "doppler.yaml"
+   ],
+   "suffixes": []
+  },
+  "dotenv": {
+   "stems": [],
+   "suffixes": [
+    "env"
+   ]
+  },
+  "doxyfile": {
+   "stems": [
+    "Doxyfile"
+   ],
+   "suffixes": []
+  },
+  "doxygen": {
+   "stems": [],
+   "suffixes": [
+    "dox"
+   ]
+  },
+  "drawio": {
+   "stems": [],
+   "suffixes": [
+    "dio",
+    "dio.png",
+    "dio.svg",
+    "drawio",
+    "drawio.png",
+    "drawio.svg"
+   ]
+  },
+  "drizzle_orm": {
+   "stems": [
+    "drizzle.config.js",
+    "drizzle.config.json",
+    "drizzle.config.ts"
+   ],
+   "suffixes": []
+  },
+  "drone": {
+   "stems": [
+    ".drone.yml",
+    ".drone.yml.sig"
+   ],
+   "suffixes": []
+  },
+  "drools": {
+   "stems": [],
+   "suffixes": [
+    "drl"
+   ]
+  },
+  "dtd": {
+   "stems": [],
+   "suffixes": [
+    "dtd"
+   ]
+  },
+  "duckdb": {
+   "stems": [],
+   "suffixes": [
+    "duckdb"
+   ]
+  },
+  "dune": {
+   "stems": [
+    "dune",
+    "dune-project",
+    "dune-workspace"
+   ],
+   "suffixes": []
+  },
+  "dustjs": {
+   "stems": [],
+   "suffixes": [
+    "dust"
+   ]
+  },
+  "dvc": {
+   "stems": [
+    ".dvc",
+    ".dvcignore",
+    "dvc.lock",
+    "dvc.yaml"
+   ],
+   "suffixes": []
+  },
+  "dylan": {
+   "stems": [],
+   "suffixes": [
+    "dylan"
+   ]
+  },
+  "earthly": {
+   "stems": [
+    ".earthlyignore",
+    "Earthfile"
+   ],
+   "suffixes": [
+    "earthfile"
+   ]
+  },
+  "eas-metadata": {
+   "stems": [
+    "store.config.json"
+   ],
+   "suffixes": []
+  },
+  "edge": {
+   "stems": [],
+   "suffixes": [
+    "edge"
+   ]
+  },
+  "editorconfig": {
+   "stems": [
+    ".editorconfig"
+   ],
+   "suffixes": []
+  },
+  "eex": {
+   "stems": [],
+   "suffixes": [
+    "html-heex",
+    "phoenix-heex"
+   ]
+  },
+  "ejs": {
+   "stems": [],
+   "suffixes": [
+    "ejs"
+   ]
+  },
+  "electron": {
+   "stems": [
+    "forge.config.js",
+    "forge.config.ts"
+   ],
+   "suffixes": []
+  },
+  "eleventy": {
+   "stems": [
+    ".eleventy.js",
+    ".eleventyignore",
+    "eleventy.config.cjs",
+    "eleventy.config.js",
+    "eleventy.config.mjs"
+   ],
+   "suffixes": []
+  },
+  "elm": {
+   "stems": [
+    "elm-package.json"
+   ],
+   "suffixes": []
+  },
+  "emacs": {
+   "stems": [],
+   "suffixes": [
+    "el",
+    "elc"
+   ]
+  },
+  "ember": {
+   "stems": [
+    ".ember-cli"
+   ],
+   "suffixes": []
+  },
+  "ensime": {
+   "stems": [],
+   "suffixes": [
+    "ensime"
+   ]
+  },
+  "eps": {
+   "stems": [],
+   "suffixes": [
+    "eps"
+   ]
+  },
+  "epub": {
+   "stems": [],
+   "suffixes": [
+    "epub"
+   ]
+  },
+  "erlang": {
+   "stems": [
+    ".emakerfile",
+    "emakefile"
+   ],
+   "suffixes": []
+  },
+  "esbuild": {
+   "stems": [
+    "esbuild.cjs",
+    "esbuild.config.cjs",
+    "esbuild.config.js",
+    "esbuild.config.mjs",
+    "esbuild.config.ts",
+    "esbuild.js",
+    "esbuild.mjs",
+    "esbuild.ts"
+   ],
+   "suffixes": []
+  },
+  "eslint": {
+   "stems": [
+    ".eslintcache",
+    ".eslintignore",
+    ".eslintrc",
+    ".eslintrc.cjs",
+    ".eslintrc.cts",
+    ".eslintrc.js",
+    ".eslintrc.json",
+    ".eslintrc.mjs",
+    ".eslintrc.mts",
+    ".eslintrc.ts",
+    ".eslintrc.yaml",
+    ".eslintrc.yml",
+    "eslint-suppressions.json"
+   ],
+   "suffixes": []
+  },
+  "excalidraw": {
+   "stems": [],
+   "suffixes": [
+    "excalidraw",
+    "excalidraw.json",
+    "excalidraw.png",
+    "excalidraw.svg"
+   ]
+  },
+  "excel": {
+   "stems": [],
+   "suffixes": [
+    "xlsb",
+    "xlsm"
+   ]
+  },
+  "expo": {
+   "stems": [
+    ".easignore",
+    "app.config.cjs",
+    "app.config.cts",
+    "app.config.js",
+    "app.config.json",
+    "app.config.mjs",
+    "app.config.mts",
+    "app.config.ts",
+    "app.json",
+    "eas.json"
+   ],
+   "suffixes": []
+  },
+  "falcon": {
+   "stems": [],
+   "suffixes": [
+    "falcon"
+   ]
+  },
+  "fantasticon": {
+   "stems": [
+    ".fantasticonrc",
+    ".fantasticonrc.js",
+    ".fantasticonrc.json",
+    "fantasticonrc",
+    "fantasticonrc.js",
+    "fantasticonrc.json"
+   ],
+   "suffixes": []
+  },
+  "fastly": {
+   "stems": [
+    "fastly.toml"
+   ],
+   "suffixes": []
+  },
+  "fauna": {
+   "stems": [
+    ".faunarc"
+   ],
+   "suffixes": [
+    "fql"
+   ]
+  },
+  "favicon": {
+   "stems": [
+    "favicon.ico"
+   ],
+   "suffixes": []
+  },
+  "fbx": {
+   "stems": [],
+   "suffixes": [
+    "fbx"
+   ]
+  },
+  "firebase": {
+   "stems": [
+    ".firebaserc"
+   ],
+   "suffixes": []
+  },
+  "firebasehosting": {
+   "stems": [
+    "firebase.json"
+   ],
+   "suffixes": []
+  },
+  "firebasestorage": {
+   "stems": [
+    "storage.rules"
+   ],
+   "suffixes": []
+  },
+  "firestore": {
+   "stems": [
+    "firestore.indexes.json",
+    "firestore.rules"
+   ],
+   "suffixes": []
+  },
+  "fitbit": {
+   "stems": [],
+   "suffixes": [
+    "fba"
+   ]
+  },
+  "fla": {
+   "stems": [],
+   "suffixes": [
+    "fla"
+   ]
+  },
+  "flareact": {
+   "stems": [
+    "flareact.config.js"
+   ],
+   "suffixes": []
+  },
+  "flash": {
+   "stems": [],
+   "suffixes": [
+    "swc",
+    "swc.cache",
+    "swf",
+    "swf.cache"
+   ]
+  },
+  "flatbuffers": {
+   "stems": [],
+   "suffixes": [
+    "fbs"
+   ]
+  },
+  "fleet": {
+   "stems": [
+    "fleet.yaml"
+   ],
+   "suffixes": []
+  },
+  "floobits": {
+   "stems": [
+    ".flooignore"
+   ],
+   "suffixes": []
+  },
+  "flow": {
+   "stems": [
+    ".flowconfig"
+   ],
+   "suffixes": [
+    "js.flow"
+   ]
+  },
+  "flowgorithm": {
+   "stems": [],
+   "suffixes": [
+    "fprg"
+   ]
+  },
+  "flutter": {
+   "stems": [
+    ".flutter-plugins",
+    ".flutter-plugins-dependencies",
+    ".metadata"
+   ],
+   "suffixes": []
+  },
+  "flutter_package": {
+   "stems": [
+    ".packages",
+    "pubspec.lock",
+    "pubspec.yaml"
+   ],
+   "suffixes": []
+  },
+  "flyio": {
+   "stems": [
+    "fly.toml"
+   ],
+   "suffixes": []
+  },
+  "fnox": {
+   "stems": [
+    ".fnox.local.toml",
+    ".fnox.toml",
+    "fnox.local.toml",
+    "fnox.toml"
+   ],
+   "suffixes": []
+  },
+  "font": {
+   "stems": [],
+   "suffixes": [
+    "eot",
+    "pfa",
+    "pfb",
+    "sfd"
+   ]
+  },
+  "formkit": {
+   "stems": [
+    "formkit.config.cjs",
+    "formkit.config.js",
+    "formkit.config.mjs",
+    "formkit.config.ts",
+    "formkit.theme.cjs",
+    "formkit.theme.js",
+    "formkit.theme.mjs",
+    "formkit.theme.ts"
+   ],
+   "suffixes": []
+  },
+  "fortran": {
+   "stems": [],
+   "suffixes": [
+    "f"
+   ]
+  },
+  "fossa": {
+   "stems": [
+    ".fossaignore"
+   ],
+   "suffixes": []
+  },
+  "fossil": {
+   "stems": [
+    "ignore-glob"
+   ],
+   "suffixes": []
+  },
+  "freemarker": {
+   "stems": [],
+   "suffixes": [
+    "ftl"
+   ]
+  },
+  "fresh": {
+   "stems": [
+    "fresh.config.ts",
+    "fresh.gen.ts"
+   ],
+   "suffixes": []
+  },
+  "fritzing": {
+   "stems": [],
+   "suffixes": [
+    "fz",
+    "fzb",
+    "fzbz",
+    "fzp",
+    "fzpz",
+    "fzz"
+   ]
+  },
+  "frontcommerce": {
+   "stems": [
+    ".front-commerce.js",
+    "front-commerce.config.ts"
+   ],
+   "suffixes": []
+  },
+  "fthtml": {
+   "stems": [],
+   "suffixes": [
+    "fthtml"
+   ]
+  },
+  "funding": {
+   "stems": [
+    "funding.yml"
+   ],
+   "suffixes": []
+  },
+  "fusebox": {
+   "stems": [
+    "fuse.js"
+   ],
+   "suffixes": []
+  },
+  "galen": {
+   "stems": [],
+   "suffixes": [
+    "gspec"
+   ]
+  },
+  "gamemaker": {
+   "stems": [],
+   "suffixes": [
+    "gmx"
+   ]
+  },
+  "gamemaker2": {
+   "stems": [],
+   "suffixes": [
+    "yy",
+    "yyp"
+   ]
+  },
+  "gamemaker81": {
+   "stems": [],
+   "suffixes": [
+    "gml"
+   ]
+  },
+  "gatsby": {
+   "stems": [
+    "gatsby-browser.js",
+    "gatsby-browser.ts",
+    "gatsby-browser.tsx",
+    "gatsby-config.js",
+    "gatsby-config.mjs",
+    "gatsby-config.ts",
+    "gatsby-node.js",
+    "gatsby-node.mjs",
+    "gatsby-node.ts",
+    "gatsby-ssr.js",
+    "gatsby-ssr.ts",
+    "gatsby-ssr.tsx"
+   ],
+   "suffixes": []
+  },
+  "gcloud": {
+   "stems": [
+    ".gcloudignore"
+   ],
+   "suffixes": []
+  },
+  "gcode": {
+   "stems": [],
+   "suffixes": [
+    "gcode"
+   ]
+  },
+  "gdscript": {
+   "stems": [],
+   "suffixes": [
+    "gd"
+   ]
+  },
+  "gduid": {
+   "stems": [],
+   "suffixes": [
+    "gd.uid"
+   ]
+  },
+  "gemini": {
+   "stems": [
+    "GEMINI.md",
+    "gemini.md"
+   ],
+   "suffixes": []
+  },
+  "genstat": {
+   "stems": [],
+   "suffixes": [
+    "gen"
+   ]
+  },
+  "geojson": {
+   "stems": [],
+   "suffixes": [
+    "geojson"
+   ]
+  },
+  "gimp": {
+   "stems": [],
+   "suffixes": [
+    "xcf"
+   ]
+  },
+  "git": {
+   "stems": [
+    ".git",
+    ".git-blame-ignore-revs",
+    ".gitattributes",
+    ".gitconfig",
+    ".gitignore",
+    ".gitkeep",
+    ".gitmessage",
+    ".gitmodules",
+    ".issuetracker",
+    ".mailmap"
+   ],
+   "suffixes": [
+    "git"
+   ]
+  },
+  "gitlab": {
+   "stems": [
+    ".gitlab-ci.yml"
+   ],
+   "suffixes": []
+  },
+  "gitpod": {
+   "stems": [
+    ".gitpod.yaml",
+    ".gitpod.yml",
+    "gitpod.yaml",
+    "gitpod.yml"
+   ],
+   "suffixes": []
+  },
+  "gleamconfig": {
+   "stems": [
+    "gleam.toml"
+   ],
+   "suffixes": []
+  },
+  "glide": {
+   "stems": [
+    "glide.yml"
+   ],
+   "suffixes": []
+  },
+  "glimmer": {
+   "stems": [],
+   "suffixes": [
+    "gjs"
+   ]
+  },
+  "glitter": {
+   "stems": [
+    ".glitterrc"
+   ],
+   "suffixes": []
+  },
+  "glsl": {
+   "stems": [],
+   "suffixes": [
+    "glsl"
+   ]
+  },
+  "gltf": {
+   "stems": [],
+   "suffixes": [
+    "glb",
+    "gltf"
+   ]
+  },
+  "glyphs": {
+   "stems": [],
+   "suffixes": [
+    "glyphs"
+   ]
+  },
+  "gnu": {
+   "stems": [],
+   "suffixes": [
+    "am",
+    "ld",
+    "m4",
+    "makefile",
+    "mk"
+   ]
+  },
+  "gnuplot": {
+   "stems": [],
+   "suffixes": [
+    "gp"
+   ]
+  },
+  "go_package": {
+   "stems": [
+    "go.mod",
+    "go.sum"
+   ],
+   "suffixes": []
+  },
+  "go_work": {
+   "stems": [
+    "go.work",
+    "go.work.sum"
+   ],
+   "suffixes": []
+  },
+  "goctl": {
+   "stems": [],
+   "suffixes": [
+    "api"
+   ]
+  },
+  "godot": {
+   "stems": [],
+   "suffixes": [
+    "godot"
+   ]
+  },
+  "golangci": {
+   "stems": [
+    ".golangci.json",
+    ".golangci.toml",
+    ".golangci.yaml",
+    ".golangci.yml"
+   ],
+   "suffixes": []
+  },
+  "gpg": {
+   "stems": [],
+   "suffixes": [
+    "gpg",
+    "pgp"
+   ]
+  },
+  "gradle": {
+   "stems": [],
+   "suffixes": [
+    "gradle",
+    "gradle.kts"
+   ]
+  },
+  "grain": {
+   "stems": [],
+   "suffixes": [
+    "gr"
+   ]
+  },
+  "graphql": {
+   "stems": [
+    ".gqlconfig"
+   ],
+   "suffixes": []
+  },
+  "graphql_config": {
+   "stems": [
+    ".graphqlconfig",
+    ".graphqlconfig.yaml",
+    ".graphqlconfig.yml"
+   ],
+   "suffixes": []
+  },
+  "graphviz": {
+   "stems": [],
+   "suffixes": [
+    "gv"
+   ]
+  },
+  "greenkeeper": {
+   "stems": [
+    "greenkeeper.json"
+   ],
+   "suffixes": []
+  },
+  "gridsome": {
+   "stems": [
+    "gridsome.client.js",
+    "gridsome.client.ts",
+    "gridsome.config.js",
+    "gridsome.config.ts",
+    "gridsome.server.js",
+    "gridsome.server.ts"
+   ],
+   "suffixes": []
+  },
+  "grit": {
+   "stems": [],
+   "suffixes": [
+    "grit"
+   ]
+  },
+  "grok": {
+   "stems": [
+    "GROK.md",
+    "grok.md"
+   ],
+   "suffixes": []
+  },
+  "groovy": {
+   "stems": [],
+   "suffixes": [
+    "groovy"
+   ]
+  },
+  "grunt": {
+   "stems": [
+    "gruntfile.babel.cjs",
+    "gruntfile.babel.coffee",
+    "gruntfile.babel.js",
+    "gruntfile.babel.ts",
+    "gruntfile.cjs",
+    "gruntfile.coffee",
+    "gruntfile.js",
+    "gruntfile.ts"
+   ],
+   "suffixes": []
+  },
+  "gulp": {
+   "stems": [
+    "gulpfile.babel.coffee",
+    "gulpfile.babel.js",
+    "gulpfile.babel.mjs",
+    "gulpfile.babel.ts",
+    "gulpfile.coffee",
+    "gulpfile.esm.coffee",
+    "gulpfile.esm.js",
+    "gulpfile.esm.mjs",
+    "gulpfile.esm.ts",
+    "gulpfile.js",
+    "gulpfile.mjs",
+    "gulpfile.ts"
+   ],
+   "suffixes": []
+  },
+  "haml": {
+   "stems": [],
+   "suffixes": [
+    "haml"
+   ]
+  },
+  "harbour": {
+   "stems": [],
+   "suffixes": [
+    "prg"
+   ]
+  },
+  "hardhat": {
+   "stems": [
+    "hardhat.config.cjs",
+    "hardhat.config.js",
+    "hardhat.config.ts"
+   ],
+   "suffixes": []
+  },
+  "hashicorp": {
+   "stems": [],
+   "suffixes": [
+    "hcl2",
+    "sentinel"
+   ]
+  },
+  "haskell": {
+   "stems": [],
+   "suffixes": [
+    "lhs"
+   ]
+  },
+  "haxe": {
+   "stems": [
+    "haxelib.json"
+   ],
+   "suffixes": [
+    "haxe"
+   ]
+  },
+  "haxecheckstyle": {
+   "stems": [
+    "checkstyle.json"
+   ],
+   "suffixes": []
+  },
+  "haxedevelop": {
+   "stems": [],
+   "suffixes": [
+    "hxproj"
+   ]
+  },
+  "helix": {
+   "stems": [
+    ".p4ignore"
+   ],
+   "suffixes": []
+  },
+  "helm": {
+   "stems": [
+    "chart.lock",
+    "chart.yaml"
+   ],
+   "suffixes": [
+    "helm.tpl"
+   ]
+  },
+  "heroku": {
+   "stems": [
+    "heroku.yml"
+   ],
+   "suffixes": []
+  },
+  "hip": {
+   "stems": [],
+   "suffixes": [
+    "hip"
+   ]
+  },
+  "histoire": {
+   "stems": [
+    ".histoire.js",
+    ".histoire.ts",
+    "histoire.config.js",
+    "histoire.config.ts"
+   ],
+   "suffixes": []
+  },
+  "hjson": {
+   "stems": [],
+   "suffixes": [
+    "hjson"
+   ]
+  },
+  "hlsl": {
+   "stems": [],
+   "suffixes": [
+    "hlsl"
+   ]
+  },
+  "horusec": {
+   "stems": [
+    "horusec-config.json"
+   ],
+   "suffixes": []
+  },
+  "host": {
+   "stems": [],
+   "suffixes": [
+    "hosts"
+   ]
+  },
+  "htmlhint": {
+   "stems": [
+    ".htmlhintrc"
+   ],
+   "suffixes": []
+  },
+  "htmlvalidate": {
+   "stems": [
+    ".htmlvalidate.cjs",
+    ".htmlvalidate.js",
+    ".htmlvalidate.json",
+    ".htmlvalidateignore"
+   ],
+   "suffixes": []
+  },
+  "http": {
+   "stems": [],
+   "suffixes": [
+    "http"
+   ]
+  },
+  "huff": {
+   "stems": [],
+   "suffixes": [
+    "huff"
+   ]
+  },
+  "hugo": {
+   "stems": [
+    ".hugo_build.lock",
+    "hugo.json",
+    "hugo.toml",
+    "hugo.yaml"
+   ],
+   "suffixes": []
+  },
+  "humanstxt": {
+   "stems": [
+    "humans.txt"
+   ],
+   "suffixes": []
+  },
+  "hunspell": {
+   "stems": [],
+   "suffixes": [
+    "aff"
+   ]
+  },
+  "hurl": {
+   "stems": [],
+   "suffixes": [
+    "hurl"
+   ]
+  },
+  "husky": {
+   "stems": [
+    ".huskyrc",
+    ".huskyrc.js",
+    ".huskyrc.json",
+    ".huskyrc.yaml",
+    ".huskyrc.yml",
+    "husky.config.js"
+   ],
+   "suffixes": []
+  },
+  "hy": {
+   "stems": [],
+   "suffixes": [
+    "hy"
+   ]
+  },
+  "hygen": {
+   "stems": [],
+   "suffixes": [
+    "ejs.t"
+   ]
+  },
+  "hypr": {
+   "stems": [],
+   "suffixes": [
+    "hypr"
+   ]
+  },
+  "icl": {
+   "stems": [],
+   "suffixes": [
+    "icl"
+   ]
+  },
+  "idris": {
+   "stems": [],
+   "suffixes": [
+    "idr",
+    "lidr"
+   ]
+  },
+  "idrisbin": {
+   "stems": [],
+   "suffixes": [
+    "ibc"
+   ]
+  },
+  "idrispkg": {
+   "stems": [],
+   "suffixes": [
+    "ipkg"
+   ]
+  },
+  "image": {
+   "stems": [],
+   "suffixes": [
+    "icns"
+   ]
+  },
+  "imba": {
+   "stems": [],
+   "suffixes": [
+    "imba",
+    "imba2"
+   ]
+  },
+  "imgbot": {
+   "stems": [
+    ".imgbotconfig"
+   ],
+   "suffixes": []
+  },
+  "inc": {
+   "stems": [],
+   "suffixes": [
+    "inc",
+    "include"
+   ]
+  },
+  "infopath": {
+   "stems": [],
+   "suffixes": [
+    "infopathxml",
+    "xsf",
+    "xsn",
+    "xtp2"
+   ]
+  },
+  "informix": {
+   "stems": [],
+   "suffixes": [
+    "4gl"
+   ]
+  },
+  "ink": {
+   "stems": [],
+   "suffixes": [
+    "ink"
+   ]
+  },
+  "innosetup": {
+   "stems": [],
+   "suffixes": [
+    "iss"
+   ]
+  },
+  "io": {
+   "stems": [],
+   "suffixes": [
+    "io"
+   ]
+  },
+  "iodine": {
+   "stems": [],
+   "suffixes": [
+    "id"
+   ]
+  },
+  "ionic": {
+   "stems": [
+    "ionic.config.json",
+    "ionic.project"
+   ],
+   "suffixes": []
+  },
+  "jake": {
+   "stems": [
+    "jakefile",
+    "jakefile.js"
+   ],
+   "suffixes": []
+  },
+  "janet": {
+   "stems": [],
+   "suffixes": [
+    "janet"
+   ]
+  },
+  "jar": {
+   "stems": [],
+   "suffixes": [
+    "jar"
+   ]
+  },
+  "jasmine": {
+   "stems": [
+    "jasmine.json"
+   ],
+   "suffixes": []
+  },
+  "jbuilder": {
+   "stems": [],
+   "suffixes": [
+    "jbuilder"
+   ]
+  },
+  "jekyll": {
+   "stems": [
+    ".nojekyll"
+   ],
+   "suffixes": [
+    "jekyll"
+   ]
+  },
+  "jenkins": {
+   "stems": [],
+   "suffixes": [
+    "jenkins"
+   ]
+  },
+  "jest": {
+   "stems": [
+    ".jestrc",
+    ".jestrc.js",
+    ".jestrc.json",
+    "jest.config.babel.js",
+    "jest.config.base.cjs",
+    "jest.config.base.cts",
+    "jest.config.base.js",
+    "jest.config.base.json",
+    "jest.config.base.mjs",
+    "jest.config.base.mts",
+    "jest.config.base.ts",
+    "jest.config.cjs",
+    "jest.config.common.cjs",
+    "jest.config.common.cts",
+    "jest.config.common.js",
+    "jest.config.common.json",
+    "jest.config.common.mjs",
+    "jest.config.common.mts",
+    "jest.config.common.ts",
+    "jest.config.cts",
+    "jest.config.e2e.cjs",
+    "jest.config.e2e.cts",
+    "jest.config.e2e.js",
+    "jest.config.e2e.json",
+    "jest.config.e2e.mjs",
+    "jest.config.e2e.mts",
+    "jest.config.e2e.ts",
+    "jest.config.int.cjs",
+    "jest.config.int.cts",
+    "jest.config.int.js",
+    "jest.config.int.json",
+    "jest.config.int.mjs",
+    "jest.config.int.mts",
+    "jest.config.int.ts",
+    "jest.config.integration.cjs",
+    "jest.config.integration.cts",
+    "jest.config.integration.js",
+    "jest.config.integration.json",
+    "jest.config.integration.mjs",
+    "jest.config.integration.mts",
+    "jest.config.integration.ts",
+    "jest.config.js",
+    "jest.config.json",
+    "jest.config.mjs",
+    "jest.config.mts",
+    "jest.config.ts",
+    "jest.config.unit.cjs",
+    "jest.config.unit.cts",
+    "jest.config.unit.js",
+    "jest.config.unit.json",
+    "jest.config.unit.mjs",
+    "jest.config.unit.mts",
+    "jest.config.unit.ts",
+    "jest.json"
+   ],
+   "suffixes": []
+  },
+  "jest_snapshot": {
+   "stems": [],
+   "suffixes": [
+    "Jest-snap"
+   ]
+  },
+  "jetbrains": {
+   "stems": [],
+   "suffixes": [
+    "iml"
+   ]
+  },
+  "jinja": {
+   "stems": [],
+   "suffixes": [
+    "j2",
+    "jinja",
+    "jinja2"
+   ]
+  },
+  "jpm": {
+   "stems": [
+    ".jpmignore"
+   ],
+   "suffixes": []
+  },
+  "js": {
+   "stems": [],
+   "suffixes": [
+    "es",
+    "es6",
+    "jake",
+    "jsm",
+    "pac",
+    "sjs",
+    "ssjs",
+    "xsjs",
+    "xsjslib"
+   ]
+  },
+  "jsbeautify": {
+   "stems": [
+    ".jsbeautify",
+    ".jsbeautifyrc",
+    "jsbeautify",
+    "jsbeautifyrc"
+   ],
+   "suffixes": []
+  },
+  "jsconfig": {
+   "stems": [
+    "jsconfig.json"
+   ],
+   "suffixes": []
+  },
+  "jscpd": {
+   "stems": [
+    ".jscpd.json",
+    "jscpd-report.html",
+    "jscpd-report.json",
+    "jscpd-report.xml"
+   ],
+   "suffixes": []
+  },
+  "jshint": {
+   "stems": [
+    ".jshintignore",
+    ".jshintrc"
+   ],
+   "suffixes": []
+  },
+  "jsmap": {
+   "stems": [],
+   "suffixes": [
+    "cjs.map",
+    "js.map",
+    "mjs.map"
+   ]
+  },
+  "json": {
+   "stems": [],
+   "suffixes": [
+    "JSON-tmLanguage",
+    "jsonl",
+    "ndjson"
+   ]
+  },
+  "json5": {
+   "stems": [],
+   "suffixes": [
+    "json5"
+   ]
+  },
+  "json_schema": {
+   "stems": [],
+   "suffixes": [
+    "schema.json"
+   ]
+  },
+  "jsonld": {
+   "stems": [],
+   "suffixes": [
+    "json-ld",
+    "jsonld"
+   ]
+  },
+  "jsonnet": {
+   "stems": [],
+   "suffixes": [
+    "jsonnet"
+   ]
+  },
+  "jsp": {
+   "stems": [],
+   "suffixes": [
+    "jsp"
+   ]
+  },
+  "jsr": {
+   "stems": [
+    "jsr.json",
+    "jsr.jsonc"
+   ],
+   "suffixes": []
+  },
+  "jss": {
+   "stems": [],
+   "suffixes": [
+    "jss"
+   ]
+  },
+  "juice": {
+   "stems": [],
+   "suffixes": [
+    "juice"
+   ]
+  },
+  "just": {
+   "stems": [
+    "Justfile",
+    "justfile"
+   ],
+   "suffixes": []
+  },
+  "k": {
+   "stems": [],
+   "suffixes": [
+    "k"
+   ]
+  },
+  "karma": {
+   "stems": [
+    "karma.conf.coffee",
+    "karma.conf.js",
+    "karma.conf.ts"
+   ],
+   "suffixes": []
+  },
+  "key": {
+   "stems": [],
+   "suffixes": [
+    "key",
+    "pem"
+   ]
+  },
+  "kitchenci": {
+   "stems": [
+    ".kitchen.yml",
+    "kitchen.yml"
+   ],
+   "suffixes": []
+  },
+  "kite": {
+   "stems": [
+    ".kiteignore"
+   ],
+   "suffixes": []
+  },
+  "kivy": {
+   "stems": [],
+   "suffixes": [
+    "kv"
+   ]
+  },
+  "knex": {
+   "stems": [
+    "knexfile.coffee",
+    "knexfile.eg",
+    "knexfile.js",
+    "knexfile.ls",
+    "knexfile.ts"
+   ],
+   "suffixes": []
+  },
+  "knip": {
+   "stems": [
+    ".knip.json",
+    ".knip.jsonc",
+    "knip.config.js",
+    "knip.config.ts",
+    "knip.js",
+    "knip.json",
+    "knip.jsonc",
+    "knip.ts"
+   ],
+   "suffixes": []
+  },
+  "kodiak": {
+   "stems": [
+    ".kodiak.toml"
+   ],
+   "suffixes": []
+  },
+  "kos": {
+   "stems": [],
+   "suffixes": [
+    "ks"
+   ]
+  },
+  "kotlin": {
+   "stems": [],
+   "suffixes": [
+    "ktm"
+   ]
+  },
+  "krita": {
+   "stems": [],
+   "suffixes": [
+    "kra"
+   ]
+  },
+  "kusto": {
+   "stems": [],
+   "suffixes": [
+    ".kusto"
+   ]
+  },
+  "kysely": {
+   "stems": [
+    "kysely.config.cjs",
+    "kysely.config.cts",
+    "kysely.config.js",
+    "kysely.config.mjs",
+    "kysely.config.mts",
+    "kysely.config.ts"
+   ],
+   "suffixes": []
+  },
+  "language_configuration": {
+   "stems": [
+    "language-configuration.json"
+   ],
+   "suffixes": []
+  },
+  "lark": {
+   "stems": [],
+   "suffixes": [
+    "lark"
+   ]
+  },
+  "latino": {
+   "stems": [],
+   "suffixes": [
+    "lat"
+   ]
+  },
+  "layout": {
+   "stems": [
+    "layout.htm",
+    "layout.html"
+   ],
+   "suffixes": [
+    "master"
+   ]
+  },
+  "lean": {
+   "stems": [],
+   "suffixes": [
+    "lean"
+   ]
+  },
+  "leanconfig": {
+   "stems": [
+    "lake-manifest.json",
+    "lakefile.lean",
+    "lakefile.toml",
+    "lean-toolchain"
+   ],
+   "suffixes": []
+  },
+  "lefthook": {
+   "stems": [
+    ".lefthook-local.json",
+    ".lefthook-local.toml",
+    ".lefthook-local.yaml",
+    ".lefthook-local.yml",
+    ".lefthook.json",
+    ".lefthook.toml",
+    ".lefthook.yaml",
+    ".lefthook.yml",
+    "lefthook-local.json",
+    "lefthook-local.toml",
+    "lefthook-local.yaml",
+    "lefthook-local.yml",
+    "lefthook.json",
+    "lefthook.toml",
+    "lefthook.yaml",
+    "lefthook.yml"
+   ],
+   "suffixes": []
+  },
+  "lemon": {
+   "stems": [],
+   "suffixes": [
+    "lemon"
+   ]
+  },
+  "lerna": {
+   "stems": [
+    "lerna.json"
+   ],
+   "suffixes": []
+  },
+  "less": {
+   "stems": [],
+   "suffixes": [
+    "less"
+   ]
+  },
+  "lex": {
+   "stems": [],
+   "suffixes": [
+    "flex"
+   ]
+  },
+  "liara": {
+   "stems": [
+    ".liaraignore",
+    "liara.json"
+   ],
+   "suffixes": []
+  },
+  "libreoffice_base": {
+   "stems": [],
+   "suffixes": [
+    "odb",
+    "otb"
+   ]
+  },
+  "libreoffice_calc": {
+   "stems": [],
+   "suffixes": [
+    "fods",
+    "ots"
+   ]
+  },
+  "libreoffice_draw": {
+   "stems": [],
+   "suffixes": [
+    "odg",
+    "otg"
+   ]
+  },
+  "libreoffice_impress": {
+   "stems": [],
+   "suffixes": [
+    "otp"
+   ]
+  },
+  "libreoffice_math": {
+   "stems": [],
+   "suffixes": [
+    "odf"
+   ]
+  },
+  "libreoffice_writer": {
+   "stems": [],
+   "suffixes": [
+    "ott"
+   ]
+  },
+  "license": {
+   "stems": [
+    "LICENCE",
+    "LICENCE.md",
+    "LICENCE.rst",
+    "LICENCE.txt",
+    "LICENSE",
+    "LICENSE-AGPL",
+    "LICENSE-AGPL.md",
+    "LICENSE-AGPL.rst",
+    "LICENSE-AGPL.txt",
+    "LICENSE-APACHE",
+    "LICENSE-APACHE.md",
+    "LICENSE-APACHE.rst",
+    "LICENSE-APACHE.txt",
+    "LICENSE-GPL",
+    "LICENSE-GPL.md",
+    "LICENSE-GPL.rst",
+    "LICENSE-GPL.txt",
+    "LICENSE-MIT",
+    "LICENSE-MIT.md",
+    "LICENSE-MIT.rst",
+    "LICENSE-MIT.txt",
+    "LICENSE.md",
+    "LICENSE.rst",
+    "LICENSE.txt",
+    "copying",
+    "copying.lesser",
+    "copying.lesser.md",
+    "copying.lesser.rst",
+    "copying.lesser.txt",
+    "copying.md",
+    "copying.rst",
+    "copying.txt",
+    "licence",
+    "licence.md",
+    "licence.rst",
+    "licence.txt",
+    "license",
+    "license-agpl",
+    "license-agpl.md",
+    "license-agpl.rst",
+    "license-agpl.txt",
+    "license-apache",
+    "license-apache.md",
+    "license-apache.rst",
+    "license-apache.txt",
+    "license-gpl",
+    "license-gpl.md",
+    "license-gpl.rst",
+    "license-gpl.txt",
+    "license-mit",
+    "license-mit.md",
+    "license-mit.rst",
+    "license-mit.txt",
+    "license.md",
+    "license.rst",
+    "license.txt"
+   ],
+   "suffixes": [
+    "enc",
+    "lic"
+   ]
+  },
+  "licensebat": {
+   "stems": [
+    ".licrc"
+   ],
+   "suffixes": []
+  },
+  "lighthouse": {
+   "stems": [
+    ".lighthouserc.cjs",
+    ".lighthouserc.js",
+    ".lighthouserc.json",
+    ".lighthouserc.yaml",
+    ".lighthouserc.yml",
+    "budget.json",
+    "budgets.json"
+   ],
+   "suffixes": []
+  },
+  "lilypond": {
+   "stems": [],
+   "suffixes": [
+    "ly"
+   ]
+  },
+  "lime": {
+   "stems": [
+    "include.xml"
+   ],
+   "suffixes": [
+    "hxp"
+   ]
+  },
+  "lintstagedrc": {
+   "stems": [
+    ".lintstagedrc",
+    ".lintstagedrc.cjs",
+    ".lintstagedrc.cts",
+    ".lintstagedrc.js",
+    ".lintstagedrc.json",
+    ".lintstagedrc.mjs",
+    ".lintstagedrc.mts",
+    ".lintstagedrc.ts",
+    ".lintstagedrc.yaml",
+    ".lintstagedrc.yml",
+    "lint-staged.config.cjs",
+    "lint-staged.config.cts",
+    "lint-staged.config.js",
+    "lint-staged.config.mjs",
+    "lint-staged.config.mts",
+    "lint-staged.config.ts"
+   ],
+   "suffixes": []
+  },
+  "liquid": {
+   "stems": [],
+   "suffixes": [
+    "liquid"
+   ]
+  },
+  "lisp": {
+   "stems": [],
+   "suffixes": [
+    "lisp"
+   ]
+  },
+  "livekit": {
+   "stems": [
+    "livekit.toml",
+    "livekit.yaml"
+   ],
+   "suffixes": []
+  },
+  "livescript": {
+   "stems": [],
+   "suffixes": [
+    "ls"
+   ]
+  },
+  "lnk": {
+   "stems": [],
+   "suffixes": [
+    "lnk"
+   ]
+  },
+  "locale": {
+   "stems": [],
+   "suffixes": [
+    "strings"
+   ]
+  },
+  "log": {
+   "stems": [],
+   "suffixes": [
+    "tlg"
+   ]
+  },
+  "lolcode": {
+   "stems": [],
+   "suffixes": [
+    "lol"
+   ]
+  },
+  "lsl": {
+   "stems": [],
+   "suffixes": [
+    "lsl"
+   ]
+  },
+  "lychee": {
+   "stems": [
+    ".lycheeignore",
+    "lychee.toml"
+   ],
+   "suffixes": []
+  },
+  "lync": {
+   "stems": [],
+   "suffixes": [
+    "crec",
+    "ocrec"
+   ]
+  },
+  "madge": {
+   "stems": [
+    ".madgerc"
+   ],
+   "suffixes": []
+  },
+  "mailing": {
+   "stems": [
+    "mailing.config.json"
+   ],
+   "suffixes": []
+  },
+  "manifest": {
+   "stems": [
+    "manifest"
+   ],
+   "suffixes": []
+  },
+  "manifest_bak": {
+   "stems": [
+    "manifest.bak"
+   ],
+   "suffixes": []
+  },
+  "manifest_skip": {
+   "stems": [
+    "manifest.skip"
+   ],
+   "suffixes": []
+  },
+  "map": {
+   "stems": [],
+   "suffixes": [
+    "map"
+   ]
+  },
+  "markdown": {
+   "stems": [],
+   "suffixes": [
+    "mdown",
+    "mkd"
+   ]
+  },
+  "markdownlint": {
+   "stems": [
+    ".markdownlint-cli2.cjs",
+    ".markdownlint-cli2.json",
+    ".markdownlint-cli2.jsonc",
+    ".markdownlint-cli2.yaml",
+    ".markdownlint-cli2.yml",
+    ".markdownlint.cjs",
+    ".markdownlint.json",
+    ".markdownlint.jsonc",
+    ".markdownlint.yaml",
+    ".markdownlint.yml",
+    ".markdownlintrc"
+   ],
+   "suffixes": []
+  },
+  "markdownlint_ignore": {
+   "stems": [
+    ".markdownlintignore"
+   ],
+   "suffixes": []
+  },
+  "marko": {
+   "stems": [],
+   "suffixes": [
+    "marko"
+   ]
+  },
+  "markojs": {
+   "stems": [],
+   "suffixes": [
+    "marko.js"
+   ]
+  },
+  "markuplint": {
+   "stems": [
+    ".markuplintrc",
+    ".markuplintrc.cjs",
+    ".markuplintrc.js",
+    ".markuplintrc.json",
+    ".markuplintrc.mjs",
+    ".markuplintrc.ts",
+    ".markuplintrc.yaml",
+    ".markuplintrc.yml",
+    "markuplint.config.cjs",
+    "markuplint.config.js",
+    "markuplint.config.json",
+    "markuplint.config.mjs",
+    "markuplint.config.ts",
+    "markuplint.config.yaml",
+    "markuplint.config.yml"
+   ],
+   "suffixes": []
+  },
+  "master-co": {
+   "stems": [
+    "master.css.js",
+    "master.css.json",
+    "master.css.mjs",
+    "master.css.ts",
+    "master.js",
+    "master.json",
+    "master.mjs",
+    "master.ts"
+   ],
+   "suffixes": []
+  },
+  "matlab": {
+   "stems": [],
+   "suffixes": [
+    "fig",
+    "mat",
+    "mex",
+    "mexn",
+    "mexrs6",
+    "mn",
+    "mum",
+    "mx",
+    "mx3",
+    "rwd",
+    "slddc",
+    "slx",
+    "smv",
+    "xvc"
+   ]
+  },
+  "maven": {
+   "stems": [
+    "extensions.xml",
+    "maven.config",
+    "pom.xml",
+    "settings.xml"
+   ],
+   "suffixes": []
+  },
+  "maxscript": {
+   "stems": [],
+   "suffixes": [
+    "ms"
+   ]
+  },
+  "maya": {
+   "stems": [],
+   "suffixes": [
+    "mel"
+   ]
+  },
+  "mcp": {
+   "stems": [
+    ".mcp.json",
+    "mcp.json"
+   ],
+   "suffixes": []
+  },
+  "mdx-components": {
+   "stems": [
+    "mdx-components.cjs",
+    "mdx-components.cts",
+    "mdx-components.js",
+    "mdx-components.jsx",
+    "mdx-components.mjs",
+    "mdx-components.mts",
+    "mdx-components.ts",
+    "mdx-components.tsx"
+   ],
+   "suffixes": []
+  },
+  "mdxlint": {
+   "stems": [
+    ".mdxlintignore",
+    ".mdxlintrc",
+    ".mdxlintrc.cjs",
+    ".mdxlintrc.js",
+    ".mdxlintrc.json",
+    ".mdxlintrc.mjs",
+    ".mdxlintrc.yaml",
+    ".mdxlintrc.yml"
+   ],
+   "suffixes": []
+  },
+  "mediawiki": {
+   "stems": [],
+   "suffixes": [
+    "mediawiki"
+   ]
+  },
+  "mercurial": {
+   "stems": [
+    ".hgignore"
+   ],
+   "suffixes": []
+  },
+  "mermaid": {
+   "stems": [],
+   "suffixes": [
+    "mermaid",
+    "mmd"
+   ]
+  },
+  "meson": {
+   "stems": [
+    "meson.build"
+   ],
+   "suffixes": []
+  },
+  "meteor": {
+   "stems": [
+    ".meteorignore"
+   ],
+   "suffixes": []
+  },
+  "metro": {
+   "stems": [
+    "metro.cjs",
+    "metro.config.cjs",
+    "metro.config.cts",
+    "metro.config.js",
+    "metro.config.json",
+    "metro.config.mjs",
+    "metro.config.mts",
+    "metro.config.ts",
+    "metro.cts",
+    "metro.js",
+    "metro.json",
+    "metro.mjs",
+    "metro.mts",
+    "metro.ts"
+   ],
+   "suffixes": []
+  },
+  "mikro_orm": {
+   "stems": [
+    "mikro-orm.config.js",
+    "mikro-orm.config.ts"
+   ],
+   "suffixes": []
+  },
+  "minecraft": {
+   "stems": [],
+   "suffixes": [
+    "mca",
+    "mcfunction",
+    "mcmeta"
+   ]
+  },
+  "mise": {
+   "stems": [
+    ".mise.local.toml",
+    ".mise.toml",
+    "mise.local.toml",
+    "mise.toml"
+   ],
+   "suffixes": []
+  },
+  "mivascript": {
+   "stems": [],
+   "suffixes": [
+    "mv"
+   ]
+  },
+  "mjml": {
+   "stems": [],
+   "suffixes": [
+    "mjml"
+   ]
+  },
+  "mlang": {
+   "stems": [],
+   "suffixes": [
+    "pq"
+   ]
+  },
+  "mocha": {
+   "stems": [
+    ".mocharc.cjs",
+    ".mocharc.js",
+    ".mocharc.json",
+    ".mocharc.jsonc",
+    ".mocharc.mjs",
+    ".mocharc.yaml",
+    ".mocharc.yml",
+    "mocha.opts"
+   ],
+   "suffixes": []
+  },
+  "modernizr": {
+   "stems": [
+    ".modernizr.js",
+    ".modernizrrc.js",
+    "modernizr",
+    "modernizr.js",
+    "modernizrrc.js"
+   ],
+   "suffixes": []
+  },
+  "modernjs": {
+   "stems": [
+    "modern.config.js",
+    "modern.config.mjs",
+    "modern.config.ts",
+    "modern.runtime.js",
+    "modern.runtime.mjs",
+    "modern.runtime.ts",
+    "modern.server.js",
+    "modern.server.mjs",
+    "modern.server.ts"
+   ],
+   "suffixes": []
+  },
+  "mojo": {
+   "stems": [],
+   "suffixes": [
+    "mojo",
+    "🔥"
+   ]
+  },
+  "mojolicious": {
+   "stems": [],
+   "suffixes": [
+    "ep"
+   ]
+  },
+  "moleculer": {
+   "stems": [
+    "moleculer.config.js",
+    "moleculer.config.json",
+    "moleculer.config.ts"
+   ],
+   "suffixes": []
+  },
+  "mondoo": {
+   "stems": [],
+   "suffixes": [
+    "mql.yaml",
+    "mql.yml"
+   ]
+  },
+  "mongo": {
+   "stems": [],
+   "suffixes": [
+    "mongo"
+   ]
+  },
+  "moniq": {
+   "stems": [
+    "moniq.config.cjs",
+    "moniq.config.cts",
+    "moniq.config.js",
+    "moniq.config.mjs",
+    "moniq.config.mts",
+    "moniq.config.ts"
+   ],
+   "suffixes": []
+  },
+  "monotone": {
+   "stems": [
+    ".mtn-ignore"
+   ],
+   "suffixes": []
+  },
+  "motif": {
+   "stems": [
+    "motif.json"
+   ],
+   "suffixes": []
+  },
+  "mson": {
+   "stems": [],
+   "suffixes": [
+    "mson"
+   ]
+  },
+  "msw": {
+   "stems": [
+    "mockServiceWorker.js"
+   ],
+   "suffixes": []
+  },
+  "mustache": {
+   "stems": [],
+   "suffixes": [
+    "mst",
+    "mu",
+    "mustache",
+    "stache"
+   ]
+  },
+  "mvtjs": {
+   "stems": [],
+   "suffixes": [
+    "mvt"
+   ]
+  },
+  "mxml": {
+   "stems": [],
+   "suffixes": [
+    "mxml"
+   ]
+  },
+  "mypy": {
+   "stems": [
+    ".mypy.ini",
+    "mypy.ini"
+   ],
+   "suffixes": []
+  },
+  "n64": {
+   "stems": [],
+   "suffixes": [
+    "n64",
+    "nrm",
+    "z64"
+   ]
+  },
+  "nanostaged": {
+   "stems": [
+    ".nano-staged.cjs",
+    ".nano-staged.js",
+    ".nano-staged.json",
+    ".nano-staged.mjs",
+    ".nanostagedrc",
+    "nano-staged.cjs",
+    "nano-staged.js",
+    "nano-staged.json",
+    "nano-staged.mjs"
+   ],
+   "suffixes": []
+  },
+  "ndst": {
+   "stems": [],
+   "suffixes": [
+    "ndst.json",
+    "ndst.yaml",
+    "ndst.yml"
+   ]
+  },
+  "nearly": {
+   "stems": [],
+   "suffixes": [
+    "ne"
+   ]
+  },
+  "neo4j": {
+   "stems": [],
+   "suffixes": [
+    "cypher"
+   ]
+  },
+  "nestjs": {
+   "stems": [
+    ".nest-cli.json",
+    ".nestconfig.json",
+    "nest-cli.json",
+    "nestconfig.json"
+   ],
+   "suffixes": []
+  },
+  "netlify": {
+   "stems": [
+    "netlify.toml"
+   ],
+   "suffixes": []
+  },
+  "next": {
+   "stems": [
+    "next.config.cjs",
+    "next.config.js",
+    "next.config.mjs",
+    "next.config.mts",
+    "next.config.ts"
+   ],
+   "suffixes": []
+  },
+  "nextflow": {
+   "stems": [
+    ".nf"
+   ],
+   "suffixes": []
+  },
+  "ng-packagr": {
+   "stems": [
+    "ng-package.js",
+    "ng-package.json"
+   ],
+   "suffixes": []
+  },
+  "ng_tailwind": {
+   "stems": [
+    "ng-tailwind.js"
+   ],
+   "suffixes": []
+  },
+  "nginx": {
+   "stems": [
+    "nginx.conf"
+   ],
+   "suffixes": [
+    "nginx"
+   ]
+  },
+  "ninja": {
+   "stems": [
+    "build.ninja"
+   ],
+   "suffixes": []
+  },
+  "nitro": {
+   "stems": [
+    ".nitrorc",
+    "nitro.cjs",
+    "nitro.config.cjs",
+    "nitro.config.cts",
+    "nitro.config.js",
+    "nitro.config.json",
+    "nitro.config.json5",
+    "nitro.config.jsonc",
+    "nitro.config.mjs",
+    "nitro.config.mts",
+    "nitro.config.toml",
+    "nitro.config.ts",
+    "nitro.config.yaml",
+    "nitro.config.yml",
+    "nitro.cts",
+    "nitro.js",
+    "nitro.json",
+    "nitro.json5",
+    "nitro.jsonc",
+    "nitro.mjs",
+    "nitro.mts",
+    "nitro.toml",
+    "nitro.ts",
+    "nitro.yaml",
+    "nitro.yml"
+   ],
+   "suffixes": []
+  },
+  "nix": {
+   "stems": [
+    "flake.lock"
+   ],
+   "suffixes": []
+  },
+  "njsproj": {
+   "stems": [],
+   "suffixes": [
+    "njsproj"
+   ]
+  },
+  "noc": {
+   "stems": [],
+   "suffixes": [
+    "noc"
+   ]
+  },
+  "node": {
+   "stems": [
+    ".node-version",
+    ".nvmrc",
+    "node.config.json"
+   ],
+   "suffixes": []
+  },
+  "nodemon": {
+   "stems": [
+    "nodemon.json"
+   ],
+   "suffixes": []
+  },
+  "npm": {
+   "stems": [
+    ".npmignore",
+    ".npmrc",
+    ".package-lock.json",
+    "npm-shrinkwrap.json",
+    "package-lock.json",
+    "package.json"
+   ],
+   "suffixes": []
+  },
+  "npmpackagejsonlint": {
+   "stems": [
+    ".npmpackagejsonlintignore",
+    ".npmpackagejsonlintrc",
+    ".npmpackagejsonlintrc.cjs",
+    ".npmpackagejsonlintrc.js",
+    ".npmpackagejsonlintrc.json",
+    ".npmpackagejsonlintrc.mjs",
+    ".npmpackagejsonlintrc.yaml",
+    ".npmpackagejsonlintrc.yml",
+    "npmpackagejsonlint.config.cjs",
+    "npmpackagejsonlint.config.js",
+    "npmpackagejsonlint.config.mjs"
+   ],
+   "suffixes": []
+  },
+  "nsi": {
+   "stems": [],
+   "suffixes": [
+    "nsi"
+   ]
+  },
+  "nsri": {
+   "stems": [
+    ".nsriignore",
+    ".nsrirc",
+    ".nsrirc.js",
+    ".nsrirc.json",
+    ".nsrirc.yaml",
+    ".nsrirc.yml",
+    "nsri.config.js"
+   ],
+   "suffixes": []
+  },
+  "nsri-integrity": {
+   "stems": [
+    ".integrity.json"
+   ],
+   "suffixes": []
+  },
+  "nuget": {
+   "stems": [],
+   "suffixes": [
+    "nupkg",
+    "nuspec",
+    "psmdcp",
+    "snupkg"
+   ]
+  },
+  "numpy": {
+   "stems": [],
+   "suffixes": [
+    "npy",
+    "npz"
+   ]
+  },
+  "nunjucks": {
+   "stems": [],
+   "suffixes": [
+    "njs",
+    "nunj",
+    "nunjucks"
+   ]
+  },
+  "nuxt": {
+   "stems": [
+    ".nuxtignore",
+    ".nuxtrc",
+    "nuxt.config.js",
+    "nuxt.config.mjs",
+    "nuxt.config.ts",
+    "nuxt.js",
+    "nuxt.mjs",
+    "nuxt.ts"
+   ],
+   "suffixes": []
+  },
+  "nx": {
+   "stems": [
+    ".nxignore",
+    "nx.json"
+   ],
+   "suffixes": []
+  },
+  "nyc": {
+   "stems": [
+    ".nycrc",
+    ".nycrc.json"
+   ],
+   "suffixes": []
+  },
+  "objectivec": {
+   "stems": [],
+   "suffixes": [
+    "m"
+   ]
+  },
+  "objectivecpp": {
+   "stems": [],
+   "suffixes": [
+    "mm"
+   ]
+  },
+  "objidconfig": {
+   "stems": [
+    ".objidconfig"
+   ],
+   "suffixes": []
+  },
+  "ocaml": {
+   "stems": [
+    ".merlin"
+   ],
+   "suffixes": []
+  },
+  "ocx": {
+   "stems": [
+    "ocx.lock",
+    "ocx.toml"
+   ],
+   "suffixes": []
+  },
+  "ogone": {
+   "stems": [],
+   "suffixes": [
+    "o3"
+   ]
+  },
+  "ohpm": {
+   "stems": [
+    ".ohpmrc",
+    "oh-package-lock.json5",
+    "oh-package.json5"
+   ],
+   "suffixes": []
+  },
+  "onenote": {
+   "stems": [],
+   "suffixes": [
+    "one",
+    "onepkg",
+    "onetoc",
+    "onetoc2",
+    "sig"
+   ]
+  },
+  "opam": {
+   "stems": [],
+   "suffixes": [
+    "opam"
+   ]
+  },
+  "openHAB": {
+   "stems": [],
+   "suffixes": [
+    "things"
+   ]
+  },
+  "opencl": {
+   "stems": [],
+   "suffixes": [
+    "cl",
+    "opencl"
+   ]
+  },
+  "opencode": {
+   "stems": [
+    "opencode.json",
+    "opencode.jsonc"
+   ],
+   "suffixes": []
+  },
+  "openscad": {
+   "stems": [],
+   "suffixes": [
+    "scad"
+   ]
+  },
+  "opentofu": {
+   "stems": [
+    ".opentofu-version"
+   ],
+   "suffixes": [
+    "tofu",
+    "tofu.json",
+    "tofutest.hcl",
+    "tofutest.json"
+   ]
+  },
+  "org": {
+   "stems": [],
+   "suffixes": [
+    "org"
+   ]
+  },
+  "orval": {
+   "stems": [
+    "orval.config.js",
+    "orval.config.mjs",
+    "orval.config.ts"
+   ],
+   "suffixes": []
+  },
+  "outlook": {
+   "stems": [],
+   "suffixes": [
+    "bcmx",
+    "msg",
+    "oft",
+    "otm",
+    "pst"
+   ]
+  },
+  "overmind": {
+   "stems": [
+    ".overmind.env"
+   ],
+   "suffixes": []
+  },
+  "ovpn": {
+   "stems": [],
+   "suffixes": [
+    "ovpn"
+   ]
+  },
+  "oxc": {
+   "stems": [
+    ".oxfmtrc.json",
+    ".oxfmtrc.jsonc",
+    ".oxlintignore",
+    ".oxlintrc.json",
+    ".oxlintrc.jsonc",
+    "oxfmt.config.mts",
+    "oxfmt.config.ts",
+    "oxlint.config.mts",
+    "oxlint.config.ts"
+   ],
+   "suffixes": []
+  },
+  "package": {
+   "stems": [],
+   "suffixes": [
+    "pkg"
+   ]
+  },
+  "packer": {
+   "stems": [],
+   "suffixes": [
+    "pkr.hcl",
+    "pkr.json",
+    "pkrtpl.hcl",
+    "pkrvars.hcl",
+    "pkrvars.json"
+   ]
+  },
+  "packship": {
+   "stems": [
+    ".packshiprc",
+    ".packshiprc.js",
+    ".packshiprc.json",
+    ".packshiprc.ts",
+    "packship.config.js",
+    "packship.config.json",
+    "packship.config.mjs",
+    "packship.config.mts",
+    "packship.config.ts"
+   ],
+   "suffixes": []
+  },
+  "paket": {
+   "stems": [
+    "paket.dependencies",
+    "paket.local",
+    "paket.lock",
+    "paket.references",
+    "paket.template"
+   ],
+   "suffixes": []
+  },
+  "pandacss": {
+   "stems": [
+    "panda.config.js",
+    "panda.config.mjs",
+    "panda.config.ts"
+   ],
+   "suffixes": []
+  },
+  "parcel": {
+   "stems": [
+    ".parcelrc"
+   ],
+   "suffixes": []
+  },
+  "parquet": {
+   "stems": [],
+   "suffixes": [
+    "parquet"
+   ]
+  },
+  "patch": {
+   "stems": [],
+   "suffixes": [
+    "patch"
+   ]
+  },
+  "pawn": {
+   "stems": [],
+   "suffixes": [
+    "p",
+    "pwn",
+    "sma"
+   ]
+  },
+  "pcl": {
+   "stems": [],
+   "suffixes": [
+    "pcd"
+   ]
+  },
+  "pddl": {
+   "stems": [],
+   "suffixes": [
+    "pddl"
+   ]
+  },
+  "pddl_happenings": {
+   "stems": [],
+   "suffixes": [
+    "happenings"
+   ]
+  },
+  "pddl_plan": {
+   "stems": [],
+   "suffixes": [
+    "plan"
+   ]
+  },
+  "pdm": {
+   "stems": [
+    ".pdm-python",
+    "pdm.lock",
+    "pdm.toml"
+   ],
+   "suffixes": []
+  },
+  "peeky": {
+   "stems": [
+    "peeky.config.js",
+    "peeky.config.mjs",
+    "peeky.config.ts"
+   ],
+   "suffixes": []
+  },
+  "perl": {
+   "stems": [],
+   "suffixes": [
+    "pl"
+   ]
+  },
+  "perl6": {
+   "stems": [],
+   "suffixes": [
+    "pl6"
+   ]
+  },
+  "pgsql": {
+   "stems": [],
+   "suffixes": [
+    "pgsql"
+   ]
+  },
+  "php": {
+   "stems": [
+    ".php-version",
+    "artisan"
+   ],
+   "suffixes": [
+    "aw",
+    "ctp",
+    "module",
+    "phar",
+    "php1",
+    "php2",
+    "php3",
+    "php4",
+    "php5",
+    "php6",
+    "php7",
+    "php8",
+    "phps",
+    "phpsa",
+    "phpt",
+    "phtml",
+    "theme"
+   ]
+  },
+  "phpcsfixer": {
+   "stems": [
+    ".php-cs-fixer.dist.php",
+    ".php-cs-fixer.php",
+    ".php_cs",
+    ".php_cs.dist"
+   ],
+   "suffixes": []
+  },
+  "phpstan": {
+   "stems": [
+    "phpstan.dist.neon",
+    "phpstan.neon"
+   ],
+   "suffixes": []
+  },
+  "phpunit": {
+   "stems": [
+    "phpunit",
+    "phpunit.xml",
+    "phpunit.xml.dist"
+   ],
+   "suffixes": []
+  },
+  "phraseapp": {
+   "stems": [
+    ".phraseapp.yml"
+   ],
+   "suffixes": []
+  },
+  "pine": {
+   "stems": [],
+   "suffixes": [
+    "pine"
+   ]
+  },
+  "pip": {
+   "stems": [
+    "pipfile",
+    "pipfile.lock",
+    "requirements-dev.txt",
+    "requirements-prod.txt",
+    "requirements-test.txt",
+    "requirements.txt"
+   ],
+   "suffixes": []
+  },
+  "pipeline": {
+   "stems": [],
+   "suffixes": [
+    "pipeline"
+   ]
+  },
+  "pixi": {
+   "stems": [
+    "pixi.lock",
+    "pixi.toml"
+   ],
+   "suffixes": []
+  },
+  "plantuml": {
+   "stems": [],
+   "suffixes": [
+    "iuml",
+    "plantuml",
+    "pu",
+    "puml"
+   ]
+  },
+  "platformio": {
+   "stems": [
+    "platformio.ini"
+   ],
+   "suffixes": [
+    "dbgasm"
+   ]
+  },
+  "playwright": {
+   "stems": [
+    "playwright.base.config.cjs",
+    "playwright.base.config.cts",
+    "playwright.base.config.js",
+    "playwright.base.config.mjs",
+    "playwright.base.config.mts",
+    "playwright.base.config.ts",
+    "playwright.ci.config.cjs",
+    "playwright.ci.config.cts",
+    "playwright.ci.config.js",
+    "playwright.ci.config.mjs",
+    "playwright.ci.config.mts",
+    "playwright.ci.config.ts",
+    "playwright.config.cjs",
+    "playwright.config.cts",
+    "playwright.config.js",
+    "playwright.config.mjs",
+    "playwright.config.mts",
+    "playwright.config.ts",
+    "playwright.dev.config.cjs",
+    "playwright.dev.config.cts",
+    "playwright.dev.config.js",
+    "playwright.dev.config.mjs",
+    "playwright.dev.config.mts",
+    "playwright.dev.config.ts",
+    "playwright.e2e.config.cjs",
+    "playwright.e2e.config.cts",
+    "playwright.e2e.config.js",
+    "playwright.e2e.config.mjs",
+    "playwright.e2e.config.mts",
+    "playwright.e2e.config.ts",
+    "playwright.local.config.cjs",
+    "playwright.local.config.cts",
+    "playwright.local.config.js",
+    "playwright.local.config.mjs",
+    "playwright.local.config.mts",
+    "playwright.local.config.ts",
+    "playwright.prod.config.cjs",
+    "playwright.prod.config.cts",
+    "playwright.prod.config.js",
+    "playwright.prod.config.mjs",
+    "playwright.prod.config.mts",
+    "playwright.prod.config.ts"
+   ],
+   "suffixes": []
+  },
+  "plsql": {
+   "stems": [],
+   "suffixes": [
+    "ddl"
+   ]
+  },
+  "plsql_package": {
+   "stems": [],
+   "suffixes": [
+    "pck"
+   ]
+  },
+  "plsql_package_body": {
+   "stems": [],
+   "suffixes": [
+    "pkb"
+   ]
+  },
+  "plsql_package_header": {
+   "stems": [],
+   "suffixes": [
+    "pkh"
+   ]
+  },
+  "plsql_package_spec": {
+   "stems": [],
+   "suffixes": [
+    "pks"
+   ]
+  },
+  "pm2": {
+   "stems": [
+    "ecosystem.config.cjs",
+    "ecosystem.config.js",
+    "ecosystem.config.json",
+    "ecosystem.config.yaml",
+    "ecosystem.config.yml"
+   ],
+   "suffixes": []
+  },
+  "pnpm": {
+   "stems": [
+    ".pnpmfile.cjs",
+    "pnpm-lock.yaml",
+    "pnpm-workspace.yaml",
+    "pnpmfile.js"
+   ],
+   "suffixes": []
+  },
+  "poedit": {
+   "stems": [],
+   "suffixes": [
+    "mo",
+    "po"
+   ]
+  },
+  "poetry": {
+   "stems": [
+    "poetry.lock"
+   ],
+   "suffixes": []
+  },
+  "polyglot": {
+   "stems": [],
+   "suffixes": [
+    "dib"
+   ]
+  },
+  "polymer": {
+   "stems": [],
+   "suffixes": [
+    "polymer"
+   ]
+  },
+  "poml": {
+   "stems": [],
+   "suffixes": [
+    "poml"
+   ]
+  },
+  "pony": {
+   "stems": [],
+   "suffixes": [
+    "pony"
+   ]
+  },
+  "postcssconfig": {
+   "stems": [
+    ".postcssrc",
+    ".postcssrc.cjs",
+    ".postcssrc.cts",
+    ".postcssrc.js",
+    ".postcssrc.json",
+    ".postcssrc.mjs",
+    ".postcssrc.mts",
+    ".postcssrc.ts",
+    ".postcssrc.yaml",
+    ".postcssrc.yml",
+    "postcss.config.cjs",
+    "postcss.config.cts",
+    "postcss.config.js",
+    "postcss.config.mjs",
+    "postcss.config.mts",
+    "postcss.config.ts"
+   ],
+   "suffixes": []
+  },
+  "postman": {
+   "stems": [],
+   "suffixes": [
+    "postman_collection.json",
+    "postman_environment.json",
+    "postman_globals.json"
+   ]
+  },
+  "postscript": {
+   "stems": [],
+   "suffixes": [
+    "ps"
+   ]
+  },
+  "powerbi": {
+   "stems": [],
+   "suffixes": [
+    "pbinb",
+    "pbix"
+   ]
+  },
+  "powerpoint": {
+   "stems": [],
+   "suffixes": [
+    "pa",
+    "pot",
+    "potm",
+    "potx",
+    "ppa",
+    "ppam",
+    "pps",
+    "ppsm",
+    "ppsx",
+    "pptm",
+    "sldm",
+    "sldx"
+   ]
+  },
+  "powershell_format": {
+   "stems": [],
+   "suffixes": [
+    "format.ps1xml"
+   ]
+  },
+  "powershell_psd": {
+   "stems": [],
+   "suffixes": [
+    "psd1"
+   ]
+  },
+  "powershell_psm": {
+   "stems": [],
+   "suffixes": [
+    "psm1"
+   ]
+  },
+  "powershell_types": {
+   "stems": [],
+   "suffixes": [
+    "types.ps1xml"
+   ]
+  },
+  "preact": {
+   "stems": [
+    "preact.config.js"
+   ],
+   "suffixes": []
+  },
+  "precommit": {
+   "stems": [
+    ".pre-commit-config.yaml"
+   ],
+   "suffixes": []
+  },
+  "prefect": {
+   "stems": [
+    "prefect.toml"
+   ],
+   "suffixes": []
+  },
+  "prettier": {
+   "stems": [
+    ".prettierignore",
+    ".prettierrc",
+    ".prettierrc.cjs",
+    ".prettierrc.cts",
+    ".prettierrc.js",
+    ".prettierrc.json",
+    ".prettierrc.json5",
+    ".prettierrc.mjs",
+    ".prettierrc.mts",
+    ".prettierrc.toml",
+    ".prettierrc.ts",
+    ".prettierrc.yaml",
+    ".prettierrc.yml",
+    "prettier.config.coffee",
+    "prettier.config.cts",
+    "prettier.config.mts",
+    "prettier.config.ts"
+   ],
+   "suffixes": []
+  },
+  "prismaconfig": {
+   "stems": [
+    "prisma.cjs",
+    "prisma.config.cjs",
+    "prisma.config.cts",
+    "prisma.config.js",
+    "prisma.config.mjs",
+    "prisma.config.mts",
+    "prisma.config.ts",
+    "prisma.cts",
+    "prisma.js",
+    "prisma.mjs",
+    "prisma.mts",
+    "prisma.ts"
+   ],
+   "suffixes": []
+  },
+  "procfile": {
+   "stems": [
+    "procfile"
+   ],
+   "suffixes": []
+  },
+  "progress": {
+   "stems": [],
+   "suffixes": [
+    "w"
+   ]
+  },
+  "prolog": {
+   "stems": [],
+   "suffixes": [
+    "pro"
+   ]
+  },
+  "prometheus": {
+   "stems": [],
+   "suffixes": [
+    "rules"
+   ]
+  },
+  "proteus": {
+   "stems": [],
+   "suffixes": [
+    "dsn",
+    "pdsprj"
+   ]
+  },
+  "protobuf": {
+   "stems": [],
+   "suffixes": [
+    "proto"
+   ]
+  },
+  "protractor": {
+   "stems": [
+    "protractor.conf.coffee",
+    "protractor.conf.js",
+    "protractor.conf.ts"
+   ],
+   "suffixes": []
+  },
+  "publiccode": {
+   "stems": [
+    "publiccode.yml"
+   ],
+   "suffixes": []
+  },
+  "publisher": {
+   "stems": [],
+   "suffixes": [
+    "pub",
+    "puz"
+   ]
+  },
+  "pug": {
+   "stems": [
+    ".jade-lint.json",
+    ".jade-lintrc",
+    ".pug-lintrc",
+    ".pug-lintrc.js",
+    ".pug-lintrc.json"
+   ],
+   "suffixes": [
+    "pug"
+   ]
+  },
+  "pulumi": {
+   "stems": [
+    "Pulumi.dev.yaml",
+    "Pulumi.dev.yml",
+    "Pulumi.prod.yaml",
+    "Pulumi.prod.yml",
+    "Pulumi.yaml",
+    "Pulumi.yml"
+   ],
+   "suffixes": []
+  },
+  "purescript": {
+   "stems": [],
+   "suffixes": [
+    "purs"
+   ]
+  },
+  "purgecss": {
+   "stems": [
+    "purgecss.config.js"
+   ],
+   "suffixes": []
+  },
+  "pyenv": {
+   "stems": [
+    ".python-version"
+   ],
+   "suffixes": []
+  },
+  "pypi": {
+   "stems": [
+    "pyproject.toml"
+   ],
+   "suffixes": []
+  },
+  "pyrefly": {
+   "stems": [
+    "pyrefly.toml"
+   ],
+   "suffixes": []
+  },
+  "pyret": {
+   "stems": [],
+   "suffixes": [
+    "arr"
+   ]
+  },
+  "pyscript": {
+   "stems": [],
+   "suffixes": [
+    "pyscript"
+   ]
+  },
+  "pytest": {
+   "stems": [
+    ".pytest.ini",
+    ".pytest.toml",
+    "pytest.ini",
+    "pytest.toml"
+   ],
+   "suffixes": []
+  },
+  "python": {
+   "stems": [
+    "Pipfile",
+    "Pipfile.lock",
+    "setup.cfg"
+   ],
+   "suffixes": [
+    "cpy",
+    "ipy",
+    "pxd",
+    "pxi",
+    "pyi",
+    "pyw",
+    "pyx",
+    "rpy"
+   ]
+  },
+  "pythonconfig": {
+   "stems": [
+    ".pdbrc",
+    ".pdbrc.py",
+    ".python_history",
+    "conf.py",
+    "config.py",
+    "settings.py",
+    "setup.py"
+   ],
+   "suffixes": []
+  },
+  "pythowo": {
+   "stems": [],
+   "suffixes": [
+    "pyowo"
+   ]
+  },
+  "pytyped": {
+   "stems": [
+    "py.typed"
+   ],
+   "suffixes": []
+  },
+  "pyup": {
+   "stems": [
+    ".pyup",
+    ".pyup.yml"
+   ],
+   "suffixes": []
+  },
+  "q": {
+   "stems": [],
+   "suffixes": [
+    "q"
+   ]
+  },
+  "qbs": {
+   "stems": [],
+   "suffixes": [
+    "qbs"
+   ]
+  },
+  "qlikview": {
+   "stems": [],
+   "suffixes": [
+    "qvd",
+    "qvs",
+    "qvw"
+   ]
+  },
+  "qml": {
+   "stems": [],
+   "suffixes": [
+    "qml"
+   ]
+  },
+  "qmldir": {
+   "stems": [
+    "qmldir"
+   ],
+   "suffixes": []
+  },
+  "qrc": {
+   "stems": [
+    "qrc"
+   ],
+   "suffixes": []
+  },
+  "qsharp": {
+   "stems": [],
+   "suffixes": [
+    "qs"
+   ]
+  },
+  "quarkdown": {
+   "stems": [],
+   "suffixes": [
+    "qd"
+   ]
+  },
+  "quarto": {
+   "stems": [],
+   "suffixes": [
+    "qmd"
+   ]
+  },
+  "quartoconfig": {
+   "stems": [
+    "_quarto.yaml",
+    "_quarto.yml"
+   ],
+   "suffixes": []
+  },
+  "quasar": {
+   "stems": [
+    "quasar.conf.js",
+    "quasar.config.cjs",
+    "quasar.config.js",
+    "quasar.config.mjs",
+    "quasar.config.ts"
+   ],
+   "suffixes": []
+  },
+  "quokka": {
+   "stems": [
+    ".quokka"
+   ],
+   "suffixes": []
+  },
+  "ra_syntax_tree": {
+   "stems": [],
+   "suffixes": [
+    "rast"
+   ]
+  },
+  "railway": {
+   "stems": [
+    "railway.json",
+    "railway.toml"
+   ],
+   "suffixes": []
+  },
+  "rake": {
+   "stems": [
+    "Rakefile"
+   ],
+   "suffixes": [
+    "rake"
+   ]
+  },
+  "raku": {
+   "stems": [],
+   "suffixes": [
+    "raku"
+   ]
+  },
+  "raml": {
+   "stems": [],
+   "suffixes": [
+    "raml"
+   ]
+  },
+  "razor": {
+   "stems": [],
+   "suffixes": [
+    "cshtml"
+   ]
+  },
+  "razzle": {
+   "stems": [
+    "razzle.config.js"
+   ],
+   "suffixes": []
+  },
+  "reactrouter": {
+   "stems": [
+    "react-router.config.js",
+    "react-router.config.ts"
+   ],
+   "suffixes": []
+  },
+  "reacttemplate": {
+   "stems": [],
+   "suffixes": [
+    "rt"
+   ]
+  },
+  "readthedocs": {
+   "stems": [
+    ".readthedocs.yaml"
+   ],
+   "suffixes": []
+  },
+  "reason": {
+   "stems": [],
+   "suffixes": [
+    "re"
+   ]
+  },
+  "rector": {
+   "stems": [
+    "rector.php"
+   ],
+   "suffixes": []
+  },
+  "red": {
+   "stems": [],
+   "suffixes": [
+    "red"
+   ]
+  },
+  "registry": {
+   "stems": [],
+   "suffixes": [
+    "reg"
+   ]
+  },
+  "rego": {
+   "stems": [],
+   "suffixes": [
+    "rego"
+   ]
+  },
+  "rehype": {
+   "stems": [
+    ".rehypeignore",
+    ".rehyperc",
+    ".rehyperc.cjs",
+    ".rehyperc.js",
+    ".rehyperc.json",
+    ".rehyperc.mjs",
+    ".rehyperc.yaml",
+    ".rehyperc.yml"
+   ],
+   "suffixes": []
+  },
+  "remark": {
+   "stems": [
+    ".remarkignore",
+    ".remarkrc",
+    ".remarkrc.cjs",
+    ".remarkrc.js",
+    ".remarkrc.json",
+    ".remarkrc.mjs",
+    ".remarkrc.yaml",
+    ".remarkrc.yml"
+   ],
+   "suffixes": []
+  },
+  "render": {
+   "stems": [
+    "render.yaml"
+   ],
+   "suffixes": []
+  },
+  "renovate": {
+   "stems": [
+    ".renovaterc",
+    ".renovaterc.json",
+    "renovate.json",
+    "renovate.json5"
+   ],
+   "suffixes": []
+  },
+  "replit": {
+   "stems": [
+    ".replit",
+    "replit.nix"
+   ],
+   "suffixes": []
+  },
+  "rescript": {
+   "stems": [],
+   "suffixes": [
+    "res"
+   ]
+  },
+  "rest": {
+   "stems": [],
+   "suffixes": [
+    "rst"
+   ]
+  },
+  "retext": {
+   "stems": [
+    ".retextignore",
+    ".retextrc",
+    ".retextrc.cjs",
+    ".retextrc.js",
+    ".retextrc.json",
+    ".retextrc.mjs",
+    ".retextrc.yaml",
+    ".retextrc.yml"
+   ],
+   "suffixes": []
+  },
+  "reuse": {
+   "stems": [
+    "REUSE.toml"
+   ],
+   "suffixes": []
+  },
+  "rexx": {
+   "stems": [],
+   "suffixes": [
+    "rex"
+   ]
+  },
+  "riot": {
+   "stems": [],
+   "suffixes": [
+    "tag"
+   ]
+  },
+  "ripple": {
+   "stems": [],
+   "suffixes": [
+    "ripple"
+   ]
+  },
+  "rmd": {
+   "stems": [],
+   "suffixes": [
+    "rmd"
+   ]
+  },
+  "rnc": {
+   "stems": [],
+   "suffixes": [
+    "rnc"
+   ]
+  },
+  "robotframework": {
+   "stems": [],
+   "suffixes": [
+    "robot"
+   ]
+  },
+  "robots": {
+   "stems": [
+    "robots.txt"
+   ],
+   "suffixes": []
+  },
+  "rolldown": {
+   "stems": [
+    "rolldown.config.cjs",
+    "rolldown.config.coffee",
+    "rolldown.config.common.cjs",
+    "rolldown.config.common.coffee",
+    "rolldown.config.common.cts",
+    "rolldown.config.common.js",
+    "rolldown.config.common.mjs",
+    "rolldown.config.common.mts",
+    "rolldown.config.common.ts",
+    "rolldown.config.cts",
+    "rolldown.config.dev.cjs",
+    "rolldown.config.dev.coffee",
+    "rolldown.config.dev.cts",
+    "rolldown.config.dev.js",
+    "rolldown.config.dev.mjs",
+    "rolldown.config.dev.mts",
+    "rolldown.config.dev.ts",
+    "rolldown.config.js",
+    "rolldown.config.mjs",
+    "rolldown.config.mts",
+    "rolldown.config.prod.cjs",
+    "rolldown.config.prod.coffee",
+    "rolldown.config.prod.cts",
+    "rolldown.config.prod.js",
+    "rolldown.config.prod.mjs",
+    "rolldown.config.prod.mts",
+    "rolldown.config.prod.ts",
+    "rolldown.config.ts"
+   ],
+   "suffixes": []
+  },
+  "rollup": {
+   "stems": [
+    "rollup.config.cjs",
+    "rollup.config.coffee",
+    "rollup.config.common.cjs",
+    "rollup.config.common.coffee",
+    "rollup.config.common.js",
+    "rollup.config.common.mjs",
+    "rollup.config.common.ts",
+    "rollup.config.dev.cjs",
+    "rollup.config.dev.coffee",
+    "rollup.config.dev.js",
+    "rollup.config.dev.mjs",
+    "rollup.config.dev.ts",
+    "rollup.config.js",
+    "rollup.config.mjs",
+    "rollup.config.prod.cjs",
+    "rollup.config.prod.coffee",
+    "rollup.config.prod.js",
+    "rollup.config.prod.mjs",
+    "rollup.config.prod.ts",
+    "rollup.config.ts"
+   ],
+   "suffixes": []
+  },
+  "rome": {
+   "stems": [
+    "rome.json"
+   ],
+   "suffixes": []
+  },
+  "ron": {
+   "stems": [],
+   "suffixes": [
+    "ron"
+   ]
+  },
+  "rproj": {
+   "stems": [],
+   "suffixes": [
+    "rproj"
+   ]
+  },
+  "rspack": {
+   "stems": [
+    "rsbuild.config.cjs",
+    "rsbuild.config.cts",
+    "rsbuild.config.js",
+    "rsbuild.config.mjs",
+    "rsbuild.config.mts",
+    "rsbuild.config.ts",
+    "rsdoctor.config.cjs",
+    "rsdoctor.config.cts",
+    "rsdoctor.config.js",
+    "rsdoctor.config.mjs",
+    "rsdoctor.config.mts",
+    "rsdoctor.config.ts",
+    "rslib.config.cjs",
+    "rslib.config.cts",
+    "rslib.config.js",
+    "rslib.config.mjs",
+    "rslib.config.mts",
+    "rslib.config.ts",
+    "rslint.config.cjs",
+    "rslint.config.cts",
+    "rslint.config.js",
+    "rslint.config.mjs",
+    "rslint.config.mts",
+    "rslint.config.ts",
+    "rslint.json",
+    "rslint.jsonc",
+    "rspack.config.cjs",
+    "rspack.config.cts",
+    "rspack.config.js",
+    "rspack.config.mjs",
+    "rspack.config.mts",
+    "rspack.config.ts",
+    "rspress.config.cjs",
+    "rspress.config.cts",
+    "rspress.config.js",
+    "rspress.config.mjs",
+    "rspress.config.mts",
+    "rspress.config.ts",
+    "rstack.config.cjs",
+    "rstack.config.cts",
+    "rstack.config.js",
+    "rstack.config.mjs",
+    "rstack.config.mts",
+    "rstack.config.ts",
+    "rstest.config.cjs",
+    "rstest.config.cts",
+    "rstest.config.js",
+    "rstest.config.mjs",
+    "rstest.config.mts",
+    "rstest.config.ts"
+   ],
+   "suffixes": []
+  },
+  "rspec": {
+   "stems": [
+    ".rspec"
+   ],
+   "suffixes": []
+  },
+  "rss": {
+   "stems": [],
+   "suffixes": [
+    "rss"
+   ]
+  },
+  "rubocop": {
+   "stems": [
+    ".rubocop.yml",
+    ".rubocop_todo.yml"
+   ],
+   "suffixes": []
+  },
+  "ruby": {
+   "stems": [
+    ".ruby-version",
+    "config.ru"
+   ],
+   "suffixes": [
+    "builder",
+    "erb",
+    "gemspec",
+    "prawn",
+    "rabl",
+    "rbs",
+    "rbw",
+    "rjs",
+    "rsel",
+    "ru",
+    "rxml",
+    "thor"
+   ]
+  },
+  "ruff": {
+   "stems": [
+    ".ruff.toml",
+    "ruff.toml"
+   ],
+   "suffixes": []
+  },
+  "rust_toolchain": {
+   "stems": [
+    "rust-toolchain",
+    "rust-toolchain.toml"
+   ],
+   "suffixes": []
+  },
+  "s-lang": {
+   "stems": [
+    ".isisrc",
+    ".jedrc",
+    ".slshrc"
+   ],
+   "suffixes": [
+    "sl"
+   ]
+  },
+  "safetensors": {
+   "stems": [],
+   "suffixes": [
+    "safetensors"
+   ]
+  },
+  "sails": {
+   "stems": [
+    ".sailsrc"
+   ],
+   "suffixes": []
+  },
+  "saltstack": {
+   "stems": [],
+   "suffixes": [
+    "sls"
+   ]
+  },
+  "san": {
+   "stems": [],
+   "suffixes": [
+    "san"
+   ]
+  },
+  "sapphire_framework_cli": {
+   "stems": [
+    ".sapphirerc",
+    ".sapphirerc.json",
+    ".sapphirerc.yml"
+   ],
+   "suffixes": []
+  },
+  "sas": {
+   "stems": [],
+   "suffixes": [
+    "sas"
+   ]
+  },
+  "sbt": {
+   "stems": [],
+   "suffixes": [
+    "sbt"
+   ]
+  },
+  "scilab": {
+   "stems": [],
+   "suffixes": [
+    "sce"
+   ]
+  },
+  "script": {
+   "stems": [],
+   "suffixes": [
+    "wsf"
+   ]
+  },
+  "scss": {
+   "stems": [],
+   "suffixes": [
+    "scssm"
+   ]
+  },
+  "sdlang": {
+   "stems": [],
+   "suffixes": [
+    "sdl"
+   ]
+  },
+  "search_result": {
+   "stems": [],
+   "suffixes": [
+    "code-search"
+   ]
+  },
+  "seedkit": {
+   "stems": [
+    "seedkit.config.js",
+    "seedkit.config.mjs",
+    "seedkit.config.ts"
+   ],
+   "suffixes": []
+  },
+  "semanticrelease": {
+   "stems": [
+    ".releaserc",
+    ".releaserc.cjs",
+    ".releaserc.js",
+    ".releaserc.json",
+    ".releaserc.mjs",
+    ".releaserc.ts",
+    ".releaserc.yaml",
+    ".releaserc.yml",
+    "release.config.cjs",
+    "release.config.js",
+    "release.config.mjs",
+    "release.config.ts"
+   ],
+   "suffixes": []
+  },
+  "sentry": {
+   "stems": [
+    ".sentryclirc"
+   ],
+   "suffixes": []
+  },
+  "sequelize": {
+   "stems": [
+    ".sequelizerc",
+    ".sequelizerc.js",
+    ".sequelizerc.json"
+   ],
+   "suffixes": []
+  },
+  "serverless": {
+   "stems": [
+    "serverless.js",
+    "serverless.json",
+    "serverless.ts",
+    "serverless.yml"
+   ],
+   "suffixes": []
+  },
+  "shadcn": {
+   "stems": [
+    "components.json"
+   ],
+   "suffixes": []
+  },
+  "shaderlab": {
+   "stems": [
+    "global-metadata.dat"
+   ],
+   "suffixes": [
+    "shader",
+    "unity"
+   ]
+  },
+  "shaderslang": {
+   "stems": [],
+   "suffixes": [
+    "slangh"
+   ]
+  },
+  "shell": {
+   "stems": [
+    ".bash_aliases",
+    ".bash_profile",
+    ".bashrc",
+    ".profile"
+   ],
+   "suffixes": [
+    "ksh"
+   ]
+  },
+  "shellcheck": {
+   "stems": [
+    ".shellcheckrc"
+   ],
+   "suffixes": []
+  },
+  "shuttle": {
+   "stems": [
+    "Shuttle.toml"
+   ],
+   "suffixes": []
+  },
+  "silverstripe": {
+   "stems": [],
+   "suffixes": [
+    "ss"
+   ]
+  },
+  "sino": {
+   "stems": [],
+   "suffixes": [
+    "sn"
+   ]
+  },
+  "sitemap": {
+   "stems": [
+    "sitemap.atom",
+    "sitemap.rss",
+    "sitemap.txt",
+    "sitemap.xml"
+   ],
+   "suffixes": []
+  },
+  "siyuan": {
+   "stems": [],
+   "suffixes": [
+    "sy"
+   ]
+  },
+  "sketch": {
+   "stems": [],
+   "suffixes": [
+    "sketch"
+   ]
+  },
+  "skill": {
+   "stems": [
+    "skill.md"
+   ],
+   "suffixes": []
+  },
+  "skipper": {
+   "stems": [],
+   "suffixes": [
+    "eskip"
+   ]
+  },
+  "slangacademic": {
+   "stems": [],
+   "suffixes": [
+    "slang"
+   ]
+  },
+  "slashup": {
+   "stems": [
+    "slash-up.config.js"
+   ],
+   "suffixes": []
+  },
+  "slice": {
+   "stems": [],
+   "suffixes": [
+    "ice"
+   ]
+  },
+  "slim": {
+   "stems": [],
+   "suffixes": [
+    "slim"
+   ]
+  },
+  "slint": {
+   "stems": [],
+   "suffixes": [
+    "slint"
+   ]
+  },
+  "sln": {
+   "stems": [],
+   "suffixes": [
+    "slnf",
+    "slnx"
+   ]
+  },
+  "smithery": {
+   "stems": [
+    "smithery.yaml"
+   ],
+   "suffixes": []
+  },
+  "snakemake": {
+   "stems": [],
+   "suffixes": [
+    "smk"
+   ]
+  },
+  "snapcraft": {
+   "stems": [
+    "snapcraft.yaml"
+   ],
+   "suffixes": []
+  },
+  "snaplet": {
+   "stems": [
+    "snaplet.config.js",
+    "snaplet.config.ts"
+   ],
+   "suffixes": []
+  },
+  "snort": {
+   "stems": [],
+   "suffixes": [
+    "snort"
+   ]
+  },
+  "snyk": {
+   "stems": [
+    ".snyk"
+   ],
+   "suffixes": []
+  },
+  "solidarity": {
+   "stems": [
+    ".solidarity",
+    ".solidarity.json"
+   ],
+   "suffixes": []
+  },
+  "spacengine": {
+   "stems": [],
+   "suffixes": [
+    "spe"
+   ]
+  },
+  "sparql": {
+   "stems": [],
+   "suffixes": [
+    "rq"
+   ]
+  },
+  "spin": {
+   "stems": [
+    "spin.toml"
+   ],
+   "suffixes": []
+  },
+  "sqf": {
+   "stems": [],
+   "suffixes": [
+    "sqf"
+   ]
+  },
+  "sqlite": {
+   "stems": [],
+   "suffixes": [
+    "db3",
+    "sqlite3"
+   ]
+  },
+  "sqlproj": {
+   "stems": [],
+   "suffixes": [
+    "sqlproj"
+   ]
+  },
+  "squirrel": {
+   "stems": [],
+   "suffixes": [
+    "nut"
+   ]
+  },
+  "sss": {
+   "stems": [],
+   "suffixes": [
+    "sss"
+   ]
+  },
+  "sst": {
+   "stems": [
+    "sst-env.d.ts",
+    "sst-env.js",
+    "sst-env.ts",
+    "sst.config.d.ts",
+    "sst.config.js",
+    "sst.config.ts"
+   ],
+   "suffixes": []
+  },
+  "stackblitz": {
+   "stems": [
+    ".stackblitzrc"
+   ],
+   "suffixes": []
+  },
+  "stan": {
+   "stems": [],
+   "suffixes": [
+    "stan"
+   ]
+  },
+  "stata": {
+   "stems": [],
+   "suffixes": [
+    "do",
+    "dta"
+   ]
+  },
+  "stencil": {
+   "stems": [],
+   "suffixes": [
+    "html.stencil",
+    "stencil"
+   ]
+  },
+  "storyboard": {
+   "stems": [],
+   "suffixes": [
+    "storyboard"
+   ]
+  },
+  "storybook": {
+   "stems": [],
+   "suffixes": [
+    "stories.js",
+    "stories.jsx",
+    "stories.mdx",
+    "stories.svelte",
+    "stories.ts",
+    "stories.tsx",
+    "story.js",
+    "story.jsx",
+    "story.mdx",
+    "story.svelte",
+    "story.ts",
+    "story.tsx"
+   ]
+  },
+  "stryker": {
+   "stems": [
+    ".stryker.conf.cjs",
+    ".stryker.conf.conf",
+    ".stryker.conf.js",
+    ".stryker.conf.json",
+    ".stryker.conf.mjs",
+    ".stryker.config.cjs",
+    ".stryker.config.conf",
+    ".stryker.config.js",
+    ".stryker.config.json",
+    ".stryker.config.mjs",
+    "stryker-config.cjs",
+    "stryker-config.conf",
+    "stryker-config.js",
+    "stryker-config.json",
+    "stryker-config.mjs",
+    "stryker.conf.cjs",
+    "stryker.conf.conf",
+    "stryker.conf.js",
+    "stryker.conf.json",
+    "stryker.conf.mjs",
+    "stryker.config.cjs",
+    "stryker.config.conf",
+    "stryker.config.js",
+    "stryker.config.json",
+    "stryker.config.mjs",
+    "stryker4s.cjs",
+    "stryker4s.conf",
+    "stryker4s.js",
+    "stryker4s.json",
+    "stryker4s.mjs"
+   ],
+   "suffixes": []
+  },
+  "stylable": {
+   "stems": [],
+   "suffixes": [
+    "st.css"
+   ]
+  },
+  "styleci": {
+   "stems": [
+    ".styleci.yml"
+   ],
+   "suffixes": []
+  },
+  "styled": {
+   "stems": [],
+   "suffixes": [
+    "styled"
+   ]
+  },
+  "stylelint": {
+   "stems": [
+    ".stylelintcache",
+    ".stylelintignore",
+    ".stylelintrc",
+    ".stylelintrc.cjs",
+    ".stylelintrc.js",
+    ".stylelintrc.json",
+    ".stylelintrc.mjs",
+    ".stylelintrc.ts",
+    ".stylelintrc.yaml",
+    ".stylelintrc.yml",
+    "stylelint.config.json",
+    "stylelint.config.ts",
+    "stylelint.config.yaml",
+    "stylelint.config.yml"
+   ],
+   "suffixes": []
+  },
+  "stylish_haskell": {
+   "stems": [
+    ".stylish-haskell.yaml"
+   ],
+   "suffixes": []
+  },
+  "stylus": {
+   "stems": [],
+   "suffixes": [
+    "styl"
+   ]
+  },
+  "sublime": {
+   "stems": [],
+   "suffixes": [
+    "sublime-project"
+   ]
+  },
+  "subversion": {
+   "stems": [
+    ".svnignore"
+   ],
+   "suffixes": []
+  },
+  "svelteconfig": {
+   "stems": [
+    "svelte.config.js",
+    "svelte.config.ts"
+   ],
+   "suffixes": []
+  },
+  "svgo": {
+   "stems": [
+    "svgo.config.cjs",
+    "svgo.config.js",
+    "svgo.config.mjs"
+   ],
+   "suffixes": []
+  },
+  "swagger": {
+   "stems": [],
+   "suffixes": [
+    "swagger"
+   ]
+  },
+  "swc": {
+   "stems": [
+    ".swcrc"
+   ],
+   "suffixes": []
+  },
+  "swift": {
+   "stems": [
+    ".swift-version",
+    "package.pins"
+   ],
+   "suffixes": []
+  },
+  "swig": {
+   "stems": [],
+   "suffixes": [
+    "swig"
+   ]
+  },
+  "symfony": {
+   "stems": [
+    "symfony.lock"
+   ],
+   "suffixes": []
+  },
+  "syncpack": {
+   "stems": [
+    ".syncpackrc",
+    ".syncpackrc.cjs",
+    ".syncpackrc.js",
+    ".syncpackrc.json",
+    ".syncpackrc.mjs",
+    ".syncpackrc.ts",
+    ".syncpackrc.yaml",
+    ".syncpackrc.yml",
+    "syncpack.config.cjs",
+    "syncpack.config.js",
+    "syncpack.config.mjs",
+    "syncpack.config.ts"
+   ],
+   "suffixes": []
+  },
+  "systemd": {
+   "stems": [],
+   "suffixes": [
+    "link"
+   ]
+  },
+  "systemverilog": {
+   "stems": [],
+   "suffixes": [
+    "sv"
+   ]
+  },
+  "t4tt": {
+   "stems": [],
+   "suffixes": [
+    "tt"
+   ]
+  },
+  "tablegen": {
+   "stems": [],
+   "suffixes": [
+    "td"
+   ]
+  },
+  "tailwind": {
+   "stems": [
+    ".tailwind.cjs",
+    ".tailwind.coffee",
+    ".tailwind.js",
+    ".tailwind.json",
+    ".tailwind.mjs",
+    ".tailwind.ts",
+    ".tailwindrc.cjs",
+    ".tailwindrc.coffee",
+    ".tailwindrc.js",
+    ".tailwindrc.json",
+    ".tailwindrc.mjs",
+    ".tailwindrc.ts",
+    "tailwind.cjs",
+    "tailwind.coffee",
+    "tailwind.config.cjs",
+    "tailwind.config.coffee",
+    "tailwind.config.js",
+    "tailwind.config.json",
+    "tailwind.config.mjs",
+    "tailwind.config.ts",
+    "tailwind.js",
+    "tailwind.json",
+    "tailwind.mjs",
+    "tailwind.ts"
+   ],
+   "suffixes": []
+  },
+  "tamagui": {
+   "stems": [
+    "tamagui.cjs",
+    "tamagui.config.cjs",
+    "tamagui.config.cts",
+    "tamagui.config.js",
+    "tamagui.config.mjs",
+    "tamagui.config.mts",
+    "tamagui.config.ts",
+    "tamagui.cts",
+    "tamagui.js",
+    "tamagui.mjs",
+    "tamagui.mts",
+    "tamagui.ts"
+   ],
+   "suffixes": []
+  },
+  "taplo": {
+   "stems": [
+    ".taplo.toml",
+    "taplo.toml"
+   ],
+   "suffixes": []
+  },
+  "taskfile": {
+   "stems": [
+    "taskfile.dist.yaml",
+    "taskfile.dist.yml",
+    "taskfile.yaml",
+    "taskfile.yml"
+   ],
+   "suffixes": []
+  },
+  "tauri": {
+   "stems": [
+    ".taurignore",
+    "tauri.conf.json"
+   ],
+   "suffixes": []
+  },
+  "tcl": {
+   "stems": [],
+   "suffixes": [
+    "exp"
+   ]
+  },
+  "teal": {
+   "stems": [],
+   "suffixes": [
+    "teal"
+   ]
+  },
+  "templ": {
+   "stems": [],
+   "suffixes": [
+    "templ"
+   ]
+  },
+  "tera": {
+   "stems": [],
+   "suffixes": [
+    "tera"
+   ]
+  },
+  "terraform": {
+   "stems": [],
+   "suffixes": [
+    "tf.json",
+    "tfstate"
+   ]
+  },
+  "test": {
+   "stems": [],
+   "suffixes": [
+    "tst"
+   ]
+  },
+  "testcafe": {
+   "stems": [
+    ".testcaferc.json"
+   ],
+   "suffixes": []
+  },
+  "testjs": {
+   "stems": [],
+   "suffixes": [
+    "spec.js",
+    "spec.jsx",
+    "spec.mjs",
+    "test.js",
+    "test.jsx",
+    "test.mjs"
+   ]
+  },
+  "testplane": {
+   "stems": [
+    "testplane.conf.cjs",
+    "testplane.conf.cts",
+    "testplane.conf.js",
+    "testplane.conf.ts",
+    "testplane.config.cjs",
+    "testplane.config.cts",
+    "testplane.config.js",
+    "testplane.config.ts"
+   ],
+   "suffixes": [
+    "testplane.cjs",
+    "testplane.cts",
+    "testplane.js",
+    "testplane.jsx",
+    "testplane.ts",
+    "testplane.tsx"
+   ]
+  },
+  "testts": {
+   "stems": [],
+   "suffixes": [
+    "e2e-spec.mts",
+    "e2e-spec.ts",
+    "e2e-spec.tsx",
+    "e2e-test.mts",
+    "e2e-test.ts",
+    "e2e-test.tsx",
+    "spec.mts",
+    "spec.ts",
+    "spec.tsx",
+    "test-d.mts",
+    "test-d.ts",
+    "test-d.tsx",
+    "test.mts",
+    "test.ts",
+    "test.tsx"
+   ]
+  },
+  "tex": {
+   "stems": [],
+   "suffixes": [
+    "bib",
+    "dtx",
+    "sty",
+    "tex",
+    "texi",
+    "tikz"
+   ]
+  },
+  "textile": {
+   "stems": [],
+   "suffixes": [
+    "textile"
+   ]
+  },
+  "textlint": {
+   "stems": [
+    ".textlintignore",
+    ".textlintrc",
+    ".textlintrc.cjs",
+    ".textlintrc.js",
+    ".textlintrc.json",
+    ".textlintrc.yaml",
+    ".textlintrc.yml"
+   ],
+   "suffixes": []
+  },
+  "tfs": {
+   "stems": [
+    ".tfignore"
+   ],
+   "suffixes": []
+  },
+  "thinkscript": {
+   "stems": [],
+   "suffixes": [
+    "tosts"
+   ]
+  },
+  "tiltfile": {
+   "stems": [
+    ".tiltignore",
+    "Tiltfile"
+   ],
+   "suffixes": []
+  },
+  "tm": {
+   "stems": [],
+   "suffixes": [
+    "tm",
+    "tm.hcl"
+   ]
+  },
+  "tmux": {
+   "stems": [
+    ".tmux.conf"
+   ],
+   "suffixes": []
+  },
+  "todo": {
+   "stems": [],
+   "suffixes": [
+    "todo"
+   ]
+  },
+  "toit": {
+   "stems": [],
+   "suffixes": [
+    "toit"
+   ]
+  },
+  "tombi": {
+   "stems": [
+    ".tombi.toml",
+    "tombi.toml"
+   ],
+   "suffixes": []
+  },
+  "toon": {
+   "stems": [],
+   "suffixes": [
+    "toon"
+   ]
+  },
+  "tox": {
+   "stems": [
+    "tox.ini"
+   ],
+   "suffixes": []
+  },
+  "travis": {
+   "stems": [
+    ".travis.yml"
+   ],
+   "suffixes": []
+  },
+  "tree": {
+   "stems": [],
+   "suffixes": [
+    "tree"
+   ]
+  },
+  "tres": {
+   "stems": [],
+   "suffixes": [
+    "tres"
+   ]
+  },
+  "trivy": {
+   "stems": [
+    ".trivyignore",
+    "trivy.yaml"
+   ],
+   "suffixes": []
+  },
+  "truffle": {
+   "stems": [
+    "truffle-config.js",
+    "truffle-config.ts"
+   ],
+   "suffixes": []
+  },
+  "trunk": {
+   "stems": [
+    "trunk.yaml"
+   ],
+   "suffixes": []
+  },
+  "tsbuildinfo": {
+   "stems": [],
+   "suffixes": [
+    "tsbuildinfo"
+   ]
+  },
+  "tscn": {
+   "stems": [],
+   "suffixes": [
+    "tscn"
+   ]
+  },
+  "tsconfig": {
+   "stems": [
+    "tsconfig.app.json",
+    "tsconfig.base.json",
+    "tsconfig.build.json",
+    "tsconfig.cjs.json",
+    "tsconfig.common.json",
+    "tsconfig.debug.json",
+    "tsconfig.dev.json",
+    "tsconfig.development.json",
+    "tsconfig.e2e.json",
+    "tsconfig.eslint.json",
+    "tsconfig.esm.json",
+    "tsconfig.json",
+    "tsconfig.lib.json",
+    "tsconfig.lib.prod.json",
+    "tsconfig.mjs.json",
+    "tsconfig.node.json",
+    "tsconfig.prod.json",
+    "tsconfig.production.json",
+    "tsconfig.release.json",
+    "tsconfig.server.json",
+    "tsconfig.spec.json",
+    "tsconfig.staging.json",
+    "tsconfig.test.json",
+    "tsconfig.types.json",
+    "tsfmt.json"
+   ],
+   "suffixes": []
+  },
+  "tsdoc": {
+   "stems": [
+    "tsdoc.json"
+   ],
+   "suffixes": []
+  },
+  "tsdown": {
+   "stems": [
+    "tsdown.config.cjs",
+    "tsdown.config.cts",
+    "tsdown.config.js",
+    "tsdown.config.json",
+    "tsdown.config.mjs",
+    "tsdown.config.mts",
+    "tsdown.config.ts"
+   ],
+   "suffixes": []
+  },
+  "tslint": {
+   "stems": [
+    "tslint.json",
+    "tslint.yaml",
+    "tslint.yml"
+   ],
+   "suffixes": []
+  },
+  "tt": {
+   "stems": [],
+   "suffixes": [
+    "tt2",
+    "tt3"
+   ]
+  },
+  "ttcn": {
+   "stems": [],
+   "suffixes": [
+    "ttcn3"
+   ]
+  },
+  "tuc": {
+   "stems": [],
+   "suffixes": [
+    "tuc"
+   ]
+  },
+  "turbo": {
+   "stems": [
+    "microfrontends.json",
+    "microfrontends.jsonc",
+    "turbo.json",
+    "turbo.jsonc"
+   ],
+   "suffixes": []
+  },
+  "twig": {
+   "stems": [],
+   "suffixes": [
+    "twig"
+   ]
+  },
+  "ty": {
+   "stems": [
+    "ty.toml"
+   ],
+   "suffixes": []
+  },
+  "typedoc": {
+   "stems": [
+    "typedoc.cjs",
+    "typedoc.config.cjs",
+    "typedoc.config.js",
+    "typedoc.config.json",
+    "typedoc.config.jsonc",
+    "typedoc.config.mjs",
+    "typedoc.js",
+    "typedoc.json",
+    "typedoc.jsonc",
+    "typedoc.mjs"
+   ],
+   "suffixes": []
+  },
+  "typescriptdef": {
+   "stems": [],
+   "suffixes": [
+    "d.cts",
+    "d.mts",
+    "d.ts"
+   ]
+  },
+  "typo3": {
+   "stems": [],
+   "suffixes": [
+    "typoscript"
+   ]
+  },
+  "uiua": {
+   "stems": [],
+   "suffixes": [
+    "ua"
+   ]
+  },
+  "unibeautify": {
+   "stems": [
+    ".unibeautifyrc",
+    ".unibeautifyrc.js",
+    ".unibeautifyrc.json",
+    ".unibeautifyrc.yaml",
+    ".unibeautifyrc.yml",
+    "unibeautify.config.js"
+   ],
+   "suffixes": []
+  },
+  "unison": {
+   "stems": [],
+   "suffixes": [
+    "u"
+   ]
+  },
+  "unlicense": {
+   "stems": [
+    "UNLICENCE",
+    "UNLICENCE.md",
+    "UNLICENCE.txt",
+    "UNLICENSE",
+    "UNLICENSE.md",
+    "UNLICENSE.txt",
+    "unlicence",
+    "unlicence.md",
+    "unlicence.txt",
+    "unlicense",
+    "unlicense.md",
+    "unlicense.txt"
+   ],
+   "suffixes": []
+  },
+  "unocss": {
+   "stems": [
+    "uno.config.js",
+    "uno.config.mjs",
+    "uno.config.mts",
+    "uno.config.ts",
+    "unocss.config.js",
+    "unocss.config.mjs",
+    "unocss.config.mts",
+    "unocss.config.ts"
+   ],
+   "suffixes": []
+  },
+  "uv": {
+   "stems": [
+    "uv.lock",
+    "uv.toml"
+   ],
+   "suffixes": []
+  },
+  "uvue": {
+   "stems": [],
+   "suffixes": [
+    "uvue"
+   ]
+  },
+  "vagrant": {
+   "stems": [
+    "vagrantfile"
+   ],
+   "suffixes": []
+  },
+  "vala": {
+   "stems": [],
+   "suffixes": [
+    "vala"
+   ]
+  },
+  "vale": {
+   "stems": [
+    ".vale.ini"
+   ],
+   "suffixes": []
+  },
+  "vanilla_extract": {
+   "stems": [],
+   "suffixes": [
+    "css.ts"
+   ]
+  },
+  "vapi": {
+   "stems": [],
+   "suffixes": [
+    "vapi"
+   ]
+  },
+  "vapor": {
+   "stems": [
+    "vapor.yml"
+   ],
+   "suffixes": []
+  },
+  "vash": {
+   "stems": [],
+   "suffixes": [
+    "vash"
+   ]
+  },
+  "vb": {
+   "stems": [],
+   "suffixes": [
+    "vb"
+   ]
+  },
+  "vba": {
+   "stems": [],
+   "suffixes": [
+    "cls"
+   ]
+  },
+  "vbhtml": {
+   "stems": [],
+   "suffixes": [
+    "vbhtml"
+   ]
+  },
+  "vcxproj": {
+   "stems": [],
+   "suffixes": [
+    "vcxproj"
+   ]
+  },
+  "velocity": {
+   "stems": [],
+   "suffixes": [
+    "vm"
+   ]
+  },
+  "vento": {
+   "stems": [],
+   "suffixes": [
+    "vento",
+    "vto"
+   ]
+  },
+  "vercel": {
+   "stems": [
+    ".nowignore",
+    ".vercel.approvers",
+    ".vercelignore",
+    "now.json",
+    "vercel.cjs",
+    "vercel.js",
+    "vercel.json",
+    "vercel.mjs",
+    "vercel.mts",
+    "vercel.ts"
+   ],
+   "suffixes": []
+  },
+  "vhdl": {
+   "stems": [],
+   "suffixes": [
+    "vhdl"
+   ]
+  },
+  "video": {
+   "stems": [],
+   "suffixes": [
+    "3g2",
+    "3gp",
+    "amv",
+    "asf",
+    "divx",
+    "f4a",
+    "f4b",
+    "f4p",
+    "f4v",
+    "flv",
+    "m2v",
+    "mk3d",
+    "mp2",
+    "mpe",
+    "mpeg",
+    "mpeg2",
+    "mpg",
+    "mpv",
+    "nsv",
+    "ogv",
+    "qt",
+    "rm",
+    "rmvb",
+    "svi",
+    "vob"
+   ]
+  },
+  "vim": {
+   "stems": [
+    ".gvimrc",
+    ".vimrc"
+   ],
+   "suffixes": [
+    "vim"
+   ]
+  },
+  "vite": {
+   "stems": [
+    "vite.config.cjs",
+    "vite.config.cts",
+    "vite.config.js",
+    "vite.config.mjs",
+    "vite.config.mts",
+    "vite.config.ts"
+   ],
+   "suffixes": []
+  },
+  "vitest": {
+   "stems": [
+    "vitest.config.cjs",
+    "vitest.config.cts",
+    "vitest.config.js",
+    "vitest.config.mjs",
+    "vitest.config.mts",
+    "vitest.config.ts",
+    "vitest.projects.cjs",
+    "vitest.projects.cts",
+    "vitest.projects.js",
+    "vitest.projects.json",
+    "vitest.projects.mjs",
+    "vitest.projects.mts",
+    "vitest.projects.ts",
+    "vitest.workspace.cjs",
+    "vitest.workspace.cts",
+    "vitest.workspace.js",
+    "vitest.workspace.json",
+    "vitest.workspace.mjs",
+    "vitest.workspace.mts",
+    "vitest.workspace.ts"
+   ],
+   "suffixes": [
+    "Vitest-snap"
+   ]
+  },
+  "vlt": {
+   "stems": [
+    "vlt-lock.json",
+    "vlt.json"
+   ],
+   "suffixes": []
+  },
+  "volt": {
+   "stems": [],
+   "suffixes": [
+    "volt"
+   ]
+  },
+  "vroom": {
+   "stems": [],
+   "suffixes": [
+    "vroom"
+   ]
+  },
+  "vscode": {
+   "stems": [
+    ".vscodeignore",
+    "launch.json",
+    "tasks.json",
+    "vscodeignore.json"
+   ],
+   "suffixes": [
+    "code-snippets",
+    "code-workspace"
+   ]
+  },
+  "vscode_test": {
+   "stems": [
+    ".vscode-test.js",
+    ".vscode-test.json",
+    ".vscode-test.mjs"
+   ],
+   "suffixes": []
+  },
+  "vsix": {
+   "stems": [],
+   "suffixes": [
+    "vsix"
+   ]
+  },
+  "vsixmanifest": {
+   "stems": [],
+   "suffixes": [
+    "vsixmanifest"
+   ]
+  },
+  "vue": {
+   "stems": [
+    ".vue-cli-rc"
+   ],
+   "suffixes": [
+    "vue2",
+    "vue3",
+    "vuerc",
+    "vues",
+    "vuex"
+   ]
+  },
+  "vueconfig": {
+   "stems": [
+    ".vuerc",
+    "vue.config.cjs",
+    "vue.config.js",
+    "vue.config.mjs"
+   ],
+   "suffixes": []
+  },
+  "vvvvvv": {
+   "stems": [],
+   "suffixes": [
+    "vvvvvv"
+   ]
+  },
+  "wallaby": {
+   "stems": [
+    ".wallaby.coffee",
+    ".wallaby.conf.coffee",
+    ".wallaby.conf.js",
+    ".wallaby.conf.json",
+    ".wallaby.conf.ts",
+    ".wallaby.js",
+    ".wallaby.json",
+    ".wallaby.ts",
+    "wallaby.coffee",
+    "wallaby.conf.coffee",
+    "wallaby.conf.js",
+    "wallaby.conf.json",
+    "wallaby.conf.ts",
+    "wallaby.js",
+    "wallaby.json",
+    "wallaby.ts"
+   ],
+   "suffixes": []
+  },
+  "wally": {
+   "stems": [
+    "wally.lock",
+    "wally.toml"
+   ],
+   "suffixes": []
+  },
+  "warp": {
+   "stems": [
+    "warp.md"
+   ],
+   "suffixes": []
+  },
+  "wasm": {
+   "stems": [],
+   "suffixes": [
+    "wasm",
+    "wast",
+    "wast.js",
+    "wat",
+    "witx",
+    "wsm"
+   ]
+  },
+  "wasp": {
+   "stems": [],
+   "suffixes": [
+    "wasp",
+    "wasp.ts"
+   ]
+  },
+  "watchmanconfig": {
+   "stems": [
+    ".watchmanconfig"
+   ],
+   "suffixes": []
+  },
+  "wdio": {
+   "stems": [
+    "wdio.cjs",
+    "wdio.conf.cjs",
+    "wdio.conf.cts",
+    "wdio.conf.js",
+    "wdio.conf.json",
+    "wdio.conf.mjs",
+    "wdio.conf.mts",
+    "wdio.conf.ts",
+    "wdio.cts",
+    "wdio.js",
+    "wdio.json",
+    "wdio.mjs",
+    "wdio.mts",
+    "wdio.ts"
+   ],
+   "suffixes": []
+  },
+  "weblate": {
+   "stems": [
+    ".weblate",
+    ".weblate.ini",
+    "weblate",
+    "weblate.ini"
+   ],
+   "suffixes": []
+  },
+  "webpack": {
+   "stems": [
+    "webpack.base.conf.cjs",
+    "webpack.base.conf.coffee",
+    "webpack.base.conf.js",
+    "webpack.base.conf.mjs",
+    "webpack.base.conf.ts",
+    "webpack.common.cjs",
+    "webpack.common.coffee",
+    "webpack.common.js",
+    "webpack.common.mjs",
+    "webpack.common.ts",
+    "webpack.config.babel.cjs",
+    "webpack.config.babel.coffee",
+    "webpack.config.babel.js",
+    "webpack.config.babel.mjs",
+    "webpack.config.babel.ts",
+    "webpack.config.base.babel.cjs",
+    "webpack.config.base.babel.coffee",
+    "webpack.config.base.babel.js",
+    "webpack.config.base.babel.mjs",
+    "webpack.config.base.babel.ts",
+    "webpack.config.base.cjs",
+    "webpack.config.base.coffee",
+    "webpack.config.base.js",
+    "webpack.config.base.mjs",
+    "webpack.config.base.ts",
+    "webpack.config.build.cjs",
+    "webpack.config.build.coffee",
+    "webpack.config.build.js",
+    "webpack.config.build.mjs",
+    "webpack.config.build.ts",
+    "webpack.config.cjs",
+    "webpack.config.coffee",
+    "webpack.config.common.babel.cjs",
+    "webpack.config.common.babel.coffee",
+    "webpack.config.common.babel.js",
+    "webpack.config.common.babel.mjs",
+    "webpack.config.common.babel.ts",
+    "webpack.config.common.cjs",
+    "webpack.config.common.coffee",
+    "webpack.config.common.js",
+    "webpack.config.common.mjs",
+    "webpack.config.common.ts",
+    "webpack.config.dev.babel.cjs",
+    "webpack.config.dev.babel.coffee",
+    "webpack.config.dev.babel.js",
+    "webpack.config.dev.babel.mjs",
+    "webpack.config.dev.babel.ts",
+    "webpack.config.dev.cjs",
+    "webpack.config.dev.coffee",
+    "webpack.config.dev.js",
+    "webpack.config.dev.mjs",
+    "webpack.config.dev.ts",
+    "webpack.config.development.babel.cjs",
+    "webpack.config.development.babel.coffee",
+    "webpack.config.development.babel.js",
+    "webpack.config.development.babel.mjs",
+    "webpack.config.development.babel.ts",
+    "webpack.config.development.cjs",
+    "webpack.config.development.coffee",
+    "webpack.config.development.js",
+    "webpack.config.development.mjs",
+    "webpack.config.development.ts",
+    "webpack.config.js",
+    "webpack.config.mjs",
+    "webpack.config.prod.babel.cjs",
+    "webpack.config.prod.babel.coffee",
+    "webpack.config.prod.babel.js",
+    "webpack.config.prod.babel.mjs",
+    "webpack.config.prod.babel.ts",
+    "webpack.config.prod.cjs",
+    "webpack.config.prod.coffee",
+    "webpack.config.prod.js",
+    "webpack.config.prod.mjs",
+    "webpack.config.prod.ts",
+    "webpack.config.production.babel.cjs",
+    "webpack.config.production.babel.coffee",
+    "webpack.config.production.babel.js",
+    "webpack.config.production.babel.mjs",
+    "webpack.config.production.babel.ts",
+    "webpack.config.production.cjs",
+    "webpack.config.production.coffee",
+    "webpack.config.production.js",
+    "webpack.config.production.mjs",
+    "webpack.config.production.ts",
+    "webpack.config.staging.babel.cjs",
+    "webpack.config.staging.babel.coffee",
+    "webpack.config.staging.babel.js",
+    "webpack.config.staging.babel.mjs",
+    "webpack.config.staging.babel.ts",
+    "webpack.config.staging.cjs",
+    "webpack.config.staging.coffee",
+    "webpack.config.staging.js",
+    "webpack.config.staging.mjs",
+    "webpack.config.staging.ts",
+    "webpack.config.test.babel.cjs",
+    "webpack.config.test.babel.coffee",
+    "webpack.config.test.babel.js",
+    "webpack.config.test.babel.mjs",
+    "webpack.config.test.babel.ts",
+    "webpack.config.test.cjs",
+    "webpack.config.test.coffee",
+    "webpack.config.test.js",
+    "webpack.config.test.mjs",
+    "webpack.config.test.ts",
+    "webpack.config.ts",
+    "webpack.dev.cjs",
+    "webpack.dev.coffee",
+    "webpack.dev.conf.cjs",
+    "webpack.dev.conf.coffee",
+    "webpack.dev.conf.js",
+    "webpack.dev.conf.mjs",
+    "webpack.dev.conf.ts",
+    "webpack.dev.js",
+    "webpack.dev.mjs",
+    "webpack.dev.ts",
+    "webpack.local.cjs",
+    "webpack.local.coffee",
+    "webpack.local.js",
+    "webpack.local.mjs",
+    "webpack.local.ts",
+    "webpack.main.config.cjs",
+    "webpack.main.config.coffee",
+    "webpack.main.config.js",
+    "webpack.main.config.mjs",
+    "webpack.main.config.ts",
+    "webpack.mix.cjs",
+    "webpack.mix.coffee",
+    "webpack.mix.js",
+    "webpack.mix.mjs",
+    "webpack.mix.ts",
+    "webpack.plugins.cjs",
+    "webpack.plugins.coffee",
+    "webpack.plugins.js",
+    "webpack.plugins.mjs",
+    "webpack.plugins.ts",
+    "webpack.prod.cjs",
+    "webpack.prod.coffee",
+    "webpack.prod.conf.cjs",
+    "webpack.prod.conf.coffee",
+    "webpack.prod.conf.js",
+    "webpack.prod.conf.mjs",
+    "webpack.prod.conf.ts",
+    "webpack.prod.js",
+    "webpack.prod.mjs",
+    "webpack.prod.ts",
+    "webpack.renderer.config.cjs",
+    "webpack.renderer.config.coffee",
+    "webpack.renderer.config.js",
+    "webpack.renderer.config.mjs",
+    "webpack.renderer.config.ts",
+    "webpack.rules.cjs",
+    "webpack.rules.coffee",
+    "webpack.rules.js",
+    "webpack.rules.mjs",
+    "webpack.rules.ts",
+    "webpack.test.conf.cjs",
+    "webpack.test.conf.coffee",
+    "webpack.test.conf.js",
+    "webpack.test.conf.mjs",
+    "webpack.test.conf.ts"
+   ],
+   "suffixes": []
+  },
+  "wenyan": {
+   "stems": [],
+   "suffixes": [
+    "wy"
+   ]
+  },
+  "wercker": {
+   "stems": [
+    "wercker.yml"
+   ],
+   "suffixes": []
+  },
+  "werf": {
+   "stems": [
+    "werf-giterminism.yaml",
+    "werf-includes.yaml",
+    "werf.yaml"
+   ],
+   "suffixes": []
+  },
+  "wesl": {
+   "stems": [],
+   "suffixes": [
+    "wesl"
+   ]
+  },
+  "wikitext": {
+   "stems": [],
+   "suffixes": [
+    "wikitext",
+    "wt"
+   ]
+  },
+  "windi": {
+   "stems": [
+    "windi.config.js",
+    "windi.config.ts"
+   ],
+   "suffixes": []
+  },
+  "wit": {
+   "stems": [],
+   "suffixes": [
+    "wai",
+    "wit"
+   ]
+  },
+  "wolfram": {
+   "stems": [],
+   "suffixes": [
+    "wl"
+   ]
+  },
+  "word": {
+   "stems": [],
+   "suffixes": [
+    "docm",
+    "dot",
+    "dotm",
+    "dotx",
+    "wll"
+   ]
+  },
+  "wpml": {
+   "stems": [
+    "wpml-config.xml"
+   ],
+   "suffixes": []
+  },
+  "wurst": {
+   "stems": [],
+   "suffixes": [
+    "wurst"
+   ]
+  },
+  "wxml": {
+   "stems": [],
+   "suffixes": [
+    "wxml"
+   ]
+  },
+  "wxss": {
+   "stems": [],
+   "suffixes": [
+    "wxss"
+   ]
+  },
+  "wxt": {
+   "stems": [
+    "wxt.config.cjs",
+    "wxt.config.cts",
+    "wxt.config.js",
+    "wxt.config.mjs",
+    "wxt.config.mts",
+    "wxt.config.ts"
+   ],
+   "suffixes": []
+  },
+  "xaml": {
+   "stems": [],
+   "suffixes": [
+    "axaml",
+    "xaml"
+   ]
+  },
+  "xcode": {
+   "stems": [
+    ".xcode-version"
+   ],
+   "suffixes": [
+    "xcodeproj"
+   ]
+  },
+  "xfl": {
+   "stems": [],
+   "suffixes": [
+    "xfl"
+   ]
+  },
+  "xib": {
+   "stems": [],
+   "suffixes": [
+    "xib"
+   ]
+  },
+  "xliff": {
+   "stems": [],
+   "suffixes": [
+    "xlf",
+    "xliff"
+   ]
+  },
+  "xmake": {
+   "stems": [],
+   "suffixes": [
+    "xmake.lua"
+   ]
+  },
+  "xml": {
+   "stems": [
+    ".actionScriptProperties",
+    ".flexLibProperties",
+    ".flexProperties",
+    ".project"
+   ],
+   "suffixes": [
+    "pex",
+    "tmlanguage"
+   ]
+  },
+  "xo": {
+   "stems": [
+    ".xo-config",
+    ".xo-config.cjs",
+    ".xo-config.js",
+    ".xo-config.json",
+    "xo.config.cjs",
+    "xo.config.cts",
+    "xo.config.js",
+    "xo.config.mjs",
+    "xo.config.mts",
+    "xo.config.ts"
+   ],
+   "suffixes": []
+  },
+  "xorg": {
+   "stems": [
+    ".xcompose"
+   ],
+   "suffixes": [
+    "xcompose"
+   ]
+  },
+  "xposed": {
+   "stems": [
+    "java_init.list",
+    "native_init",
+    "native_init.list",
+    "scope.list",
+    "xposed/module.prop",
+    "xposed_init"
+   ],
+   "suffixes": []
+  },
+  "xquery": {
+   "stems": [],
+   "suffixes": [
+    "xquery"
+   ]
+  },
+  "xsl": {
+   "stems": [],
+   "suffixes": [
+    "xsl"
+   ]
+  },
+  "yacc": {
+   "stems": [],
+   "suffixes": [
+    "bison"
+   ]
+  },
+  "yaml": {
+   "stems": [],
+   "suffixes": [
+    "YAML-tmLanguage"
+   ]
+  },
+  "yamllint": {
+   "stems": [
+    ".yamllint"
+   ],
+   "suffixes": []
+  },
+  "yandex": {
+   "stems": [
+    ".yaspeller.json",
+    ".yaspellerrc"
+   ],
+   "suffixes": []
+  },
+  "yang": {
+   "stems": [],
+   "suffixes": [
+    "yang"
+   ]
+  },
+  "yarn": {
+   "stems": [
+    ".yarn-integrity",
+    ".yarn-metadata.json",
+    ".yarn-state.yml",
+    ".yarnclean",
+    ".yarnignore",
+    ".yarnrc",
+    ".yarnrc.yml",
+    "yarn.lock"
+   ],
+   "suffixes": []
+  },
+  "yeoman": {
+   "stems": [
+    ".yo-rc.json"
+   ],
+   "suffixes": []
+  },
+  "zensical": {
+   "stems": [
+    "zensical.toml"
+   ],
+   "suffixes": []
+  },
+  "zip": {
+   "stems": [],
+   "suffixes": [
+    "7z",
+    "br",
+    "bz",
+    "bz2",
+    "bzip2",
+    "gz",
+    "rar",
+    "tar",
+    "tgz",
+    "whl",
+    "xz",
+    "zip",
+    "zipx"
+   ]
+  },
+  "zizmor": {
+   "stems": [
+    "zizmor.yaml",
+    "zizmor.yml"
+   ],
+   "suffixes": []
+  },
+  "zsh": {
+   "stems": [
+    ".zlogin",
+    ".zprofile",
+    ".zshrc"
+   ],
+   "suffixes": []
+  }
+ },
+ "flavors": {
+  "Angular": {
+   "ng_component_dart": {
+    "stems": [],
+    "suffixes": [
+     "component.dart"
+    ]
+   },
+   "ng_component_js": {
+    "stems": [],
+    "suffixes": [
+     "component.js"
+    ]
+   },
+   "ng_component_ts": {
+    "stems": [],
+    "suffixes": [
+     "component.ts"
+    ]
+   },
+   "ng_controller_js": {
+    "stems": [],
+    "suffixes": [
+     "controller.js"
+    ]
+   },
+   "ng_controller_ts": {
+    "stems": [],
+    "suffixes": [
+     "controller.ts"
+    ]
+   },
+   "ng_directive_dart": {
+    "stems": [],
+    "suffixes": [
+     "directive.dart"
+    ]
+   },
+   "ng_directive_js": {
+    "stems": [],
+    "suffixes": [
+     "directive.js"
+    ]
+   },
+   "ng_directive_ts": {
+    "stems": [],
+    "suffixes": [
+     "directive.ts"
+    ]
+   },
+   "ng_guard_dart": {
+    "stems": [],
+    "suffixes": [
+     "guard.dart"
+    ]
+   },
+   "ng_guard_js": {
+    "stems": [],
+    "suffixes": [
+     "guard.js"
+    ]
+   },
+   "ng_guard_ts": {
+    "stems": [],
+    "suffixes": [
+     "guard.ts"
+    ]
+   },
+   "ng_interceptor_dart": {
+    "stems": [],
+    "suffixes": [
+     "interceptor.dart"
+    ]
+   },
+   "ng_interceptor_js": {
+    "stems": [],
+    "suffixes": [
+     "interceptor.js"
+    ]
+   },
+   "ng_interceptor_ts": {
+    "stems": [],
+    "suffixes": [
+     "interceptor.ts"
+    ]
+   },
+   "ng_module_dart": {
+    "stems": [],
+    "suffixes": [
+     "module.dart"
+    ]
+   },
+   "ng_module_js": {
+    "stems": [],
+    "suffixes": [
+     "module.js"
+    ]
+   },
+   "ng_module_ts": {
+    "stems": [],
+    "suffixes": [
+     "module.ts"
+    ]
+   },
+   "ng_pipe_dart": {
+    "stems": [],
+    "suffixes": [
+     "pipe.dart"
+    ]
+   },
+   "ng_pipe_js": {
+    "stems": [],
+    "suffixes": [
+     "pipe.js"
+    ]
+   },
+   "ng_pipe_ts": {
+    "stems": [],
+    "suffixes": [
+     "pipe.ts"
+    ]
+   },
+   "ng_routing_dart": {
+    "stems": [
+     "app-routing.module.dart"
+    ],
+    "suffixes": [
+     "routes.dart",
+     "routing.dart"
+    ]
+   },
+   "ng_routing_js": {
+    "stems": [
+     "app-routing.module.js"
+    ],
+    "suffixes": [
+     "routes.js",
+     "routing.js"
+    ]
+   },
+   "ng_routing_ts": {
+    "stems": [
+     "app-routing.module.ts"
+    ],
+    "suffixes": [
+     "routes.ts",
+     "routing.ts"
+    ]
+   },
+   "ng_service_dart": {
+    "stems": [],
+    "suffixes": [
+     "service.dart"
+    ]
+   },
+   "ng_service_js": {
+    "stems": [],
+    "suffixes": [
+     "service.js"
+    ]
+   },
+   "ng_service_ts": {
+    "stems": [],
+    "suffixes": [
+     "service.ts"
+    ]
+   },
+   "ng_smart_component_dart": {
+    "stems": [],
+    "suffixes": [
+     "container.dart",
+     "page.dart"
+    ]
+   },
+   "ng_smart_component_js": {
+    "stems": [],
+    "suffixes": [
+     "container.js",
+     "page.js"
+    ]
+   },
+   "ng_smart_component_ts": {
+    "stems": [],
+    "suffixes": [
+     "container.ts",
+     "page.ts"
+    ]
+   }
+  },
+  "NestJS": {
+   "nest_adapter_js": {
+    "stems": [],
+    "suffixes": [
+     "adapter.js"
+    ]
+   },
+   "nest_adapter_ts": {
+    "stems": [],
+    "suffixes": [
+     "adapter.ts"
+    ]
+   },
+   "nest_controller_js": {
+    "stems": [],
+    "suffixes": [
+     "controller.js"
+    ]
+   },
+   "nest_controller_ts": {
+    "stems": [],
+    "suffixes": [
+     "controller.ts"
+    ]
+   },
+   "nest_decorator_js": {
+    "stems": [],
+    "suffixes": [
+     "decorator.js"
+    ]
+   },
+   "nest_decorator_ts": {
+    "stems": [],
+    "suffixes": [
+     "decorator.ts"
+    ]
+   },
+   "nest_filter_js": {
+    "stems": [],
+    "suffixes": [
+     "filter.js"
+    ]
+   },
+   "nest_filter_ts": {
+    "stems": [],
+    "suffixes": [
+     "filter.ts"
+    ]
+   },
+   "nest_gateway_js": {
+    "stems": [],
+    "suffixes": [
+     "gateway.js"
+    ]
+   },
+   "nest_gateway_ts": {
+    "stems": [],
+    "suffixes": [
+     "gateway.ts"
+    ]
+   },
+   "nest_guard_js": {
+    "stems": [],
+    "suffixes": [
+     "guard.js"
+    ]
+   },
+   "nest_guard_ts": {
+    "stems": [],
+    "suffixes": [
+     "guard.ts"
+    ]
+   },
+   "nest_interceptor_js": {
+    "stems": [],
+    "suffixes": [
+     "interceptor.js"
+    ]
+   },
+   "nest_interceptor_ts": {
+    "stems": [],
+    "suffixes": [
+     "interceptor.ts"
+    ]
+   },
+   "nest_middleware_js": {
+    "stems": [],
+    "suffixes": [
+     "middleware.js"
+    ]
+   },
+   "nest_middleware_ts": {
+    "stems": [],
+    "suffixes": [
+     "middleware.ts"
+    ]
+   },
+   "nest_module_js": {
+    "stems": [],
+    "suffixes": [
+     "module.js"
+    ]
+   },
+   "nest_module_ts": {
+    "stems": [],
+    "suffixes": [
+     "module.ts"
+    ]
+   },
+   "nest_pipe_js": {
+    "stems": [],
+    "suffixes": [
+     "pipe.js"
+    ]
+   },
+   "nest_pipe_ts": {
+    "stems": [],
+    "suffixes": [
+     "pipe.ts"
+    ]
+   },
+   "nest_service_js": {
+    "stems": [],
+    "suffixes": [
+     "service.js"
+    ]
+   },
+   "nest_service_ts": {
+    "stems": [],
+    "suffixes": [
+     "service.ts"
+    ]
+   }
+  }
+ }
+}
